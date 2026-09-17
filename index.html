@@ -367,11 +367,11 @@ footer{padding-bottom:120px}
 
     <div class="cover-text" id="cover-text">
       <p class="cover-kicker">HOKKAIDO · JAPAN / WINTER 2027</p>
-      <h1>北海道<span class="title-snow" aria-hidden="true">✳</span></h1>
+      <h1>北海道</h1>
       <p class="cover-handwriting">Hokkaido Winter Journey</p>
     </div>
     <div class="cover-corner" aria-hidden="true"><span lang="ja">北の大地で、<br>きっとまた会える。</span><small>⌖ 小樽运河　OTARU CANAL</small></div>
-    <a href="#guide-root" class="scroll-invite" id="scroll-invite"><span class="scroll-device" aria-hidden="true">▯</span><span>向上滑动</span><small>开启完整攻略</small><b aria-hidden="true">↓</b></a>
+    <a href="#guide-root" class="scroll-invite" id="scroll-invite"><span>向上滑动</span><small>开启完整攻略</small><b aria-hidden="true">↓</b></a>
 
     <!-- 02/03 白雾遮罩：使用透明 PNG + 柔和 CSS 渐变，不再使用硬边山峰 SVG -->
     <div class="mist-layer" aria-hidden="true">
@@ -569,7 +569,7 @@ function navigateWithBottomNav(id){
   bottomNavState.lockStartedAt=performance.now();
   // 点击后立即只显示用户选择的目标；纵向滚动经过中间 section 时不再改写 active。
   setBottomNavActive(id,{center:'force',behavior:'smooth'});
-  try{history.replaceState(null,'','#'+id)}catch(err){}
+  // try{history.replaceState(null,'','#'+id)}catch(err){}
   target.scrollIntoView({behavior:bottomNavReducedMotion.matches?'auto':'smooth',block:'start'});
   // 若目标就在当前位置、浏览器没有产生 scroll 事件，也能及时解除锁定。
   scheduleBottomNavUnlock(bottomNavReducedMotion.matches?40:220);
@@ -604,7 +604,25 @@ window.addEventListener('scroll',()=>{
   }else{
     requestBottomNavSync();
   }
+
+  // 用户已经回到封面区域时，清掉旧的锚点。
+  // 防止刷新页面后浏览器重新跳回 #overview / #dayX。
+  const guideRoot=$('guide-root');
+  if(
+    guideRoot &&
+    window.scrollY < guideRoot.offsetTop &&
+    location.hash
+  ){
+    try{
+      history.replaceState(
+        null,
+        '',
+        location.pathname + location.search
+      );
+    }catch(err){}
+  }
 },{passive:true});
+
 window.addEventListener('resize',requestBottomNavSync,{passive:true});
 if('onscrollend' in window){
   window.addEventListener('scrollend',()=>{

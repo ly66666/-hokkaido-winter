@@ -1,0 +1,744 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#F7FAFC">
+<meta name="description" content="2027年1月9日至17日，三个人的北海道与东京冬季旅行手册。行程、住宿、路线与出发前待办。">
+<title>向北，去看雪｜2027 北海道旅行手册</title>
+<style>
+:root{--paper:#F7FAFC;--paper-rgb:247,250,252;--card:#FFFFFF;--ink:#183A58;--muted:#647F94;--line:#DCE8F0;--accent:#285F88;--soft:#E7F1F8;--blue:#285F88;--shadow:0 8px 24px rgba(24,58,88,.07);--warn:#EAF1F7;color-scheme:light}
+:root[data-theme=dark]{--paper:#101E2E;--paper-rgb:16,30,46;--card:#172B3E;--ink:#E8F3FA;--muted:#B4CAD9;--line:#344D63;--accent:#9BCFEF;--soft:#203B51;--blue:#AED9F1;--shadow:0 8px 28px #0003;--warn:#233A50;color-scheme:dark}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:28px}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.8 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}a{color:inherit;text-underline-offset:4px}button,summary,a{-webkit-tap-highlight-color:transparent}button{font:inherit;cursor:pointer}button,a,summary{touch-action:manipulation}button:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid var(--accent);outline-offset:4px}button{color:inherit;background:none;border:0}svg{display:block;max-width:100%}h1,h2,h3,p{margin-top:0}h1,h2,h3{line-height:1.35}h2{font-size:27px;letter-spacing:.02em;margin-bottom:8px}h3{font-size:18px;margin-bottom:8px}.wrap{max-width:1120px;margin:auto;padding:0 30px}.topbar{display:flex;justify-content:space-between;align-items:center;padding:22px 0;border-bottom:1px solid var(--line);gap:12px}.brand{font:700 11px/1.5 monospace;letter-spacing:2px}.tools{display:flex;gap:6px;flex-wrap:wrap}.tools button,.button{display:inline-flex;align-items:center;justify-content:center;min-height:44px;border:1px solid var(--line);border-radius:8px;padding:7px 13px;font-size:12px;text-decoration:none;background:var(--card)}.tools button:hover,.button:hover{border-color:var(--accent)}.hero{padding:45px 0 30px;display:grid;grid-template-columns:1.4fr 1fr;align-items:center;gap:20px}.eyebrow{font:700 11px/1.5 monospace;letter-spacing:3px;color:var(--accent);text-transform:uppercase;margin-bottom:15px}h1{font-size:clamp(38px,6vw,66px);font-family:Georgia,"Songti SC","SimSun",serif;font-weight:500;letter-spacing:.04em;margin:0 0 18px}.hero p{color:var(--muted);margin-bottom:10px}.hero-art{width:100%;height:165px}.stamp{display:inline-block;transform:rotate(-6deg);border:1px solid var(--accent);padding:5px 12px;color:var(--accent);font:12px monospace;letter-spacing:2px}.focus{display:grid;grid-template-columns:1.1fr 1fr;background:var(--ink);color:var(--paper);border-radius:16px;padding:28px 32px;gap:25px;position:relative;overflow:hidden}.focus small{opacity:.75}.focus h2{font-size:22px;margin:8px 0}.focus .button{background:transparent;color:inherit;border-color:#ffffff55;margin:12px 8px 0 0}.focus-label{font-size:12px;letter-spacing:2px}.dot{display:inline-block;background:#d4b982;width:6px;height:6px;border-radius:50%;margin-right:8px}.countdown{display:flex;align-items:center;justify-content:space-between;gap:8px}.countdown b{font:400 clamp(27px,4vw,49px)/1.2 Georgia,serif;font-variant-numeric:tabular-nums;display:block;min-width:2ch}.countdown span{font-size:11px;opacity:.65}.countdown>div{text-align:center}.section{padding:46px 0 0}.section-head{display:flex;align-items:end;justify-content:space-between;gap:18px;margin-bottom:22px}.section-head p{margin:0;color:var(--muted);font-size:13px}.section-no{font:italic 19px Georgia,serif;color:var(--accent);margin-right:10px}.panel{border:1px solid var(--line);background:var(--card);border-radius:14px;box-shadow:var(--shadow)}.map-panel{display:grid;grid-template-columns:1.5fr 1fr;padding:24px;gap:24px}.overview-svg{width:100%;height:auto;max-height:440px}.map-land{fill:var(--soft);stroke:var(--muted);stroke-width:1.3}.overview-svg text{fill:var(--ink);font-size:13px}.overview-svg .map-small{font-size:10px;fill:var(--muted)}.route{fill:none;stroke-width:3;stroke-linecap:round;stroke-dasharray:5 5}.legend{display:grid;gap:0;align-content:center}.legend a{display:flex;align-items:center;gap:13px;padding:10px 0;border-bottom:1px dashed var(--line);font-size:13px;text-decoration:none}.legend b{font:12px monospace;color:var(--accent);min-width:23px}.legend em{font-style:normal;color:var(--muted);margin-left:auto;font-size:11px}.note{font-size:12px;color:var(--muted);margin:12px 0 0}.bookings{display:grid;grid-template-columns:1fr 1fr;gap:16px}.booking{padding:22px}.tag{display:inline-block;font-size:10px;letter-spacing:.03em;line-height:1.5;padding:4px 8px;border-radius:4px;background:var(--soft);color:var(--blue);margin-right:5px}.tag.warn{background:var(--warn);color:var(--accent)}.flight{padding:15px 0;border-bottom:1px dashed var(--line)}.flight:last-child{border:0;padding-bottom:0}.flight-head{display:flex;justify-content:space-between;color:var(--muted);font-size:12px}.flight-line{display:grid;grid-template-columns:1fr 30px 1fr;align-items:center;gap:8px;margin-top:8px}.flight-line b{font-size:23px;font-weight:500;display:block;font-variant-numeric:tabular-nums}.flight-line span{font-size:12px}.hotel{padding:14px 0;border-bottom:1px dashed var(--line)}.hotel:last-child{border:0}.hotel h3{font-size:15px}.hotel p{font-size:12px;color:var(--muted);margin:5px 0}.hotel .links{font-size:12px;display:flex;gap:15px;flex-wrap:wrap}.notice{background:var(--warn);border-left:3px solid var(--accent);padding:14px 18px;border-radius:0 8px 8px 0;font-size:13px;margin:20px 0}.notice p{margin:5px 0}.day-grid{display:grid;grid-template-columns:170px minmax(0,1fr);gap:30px}.side-nav{position:sticky;top:22px;align-self:start}.side-nav a{display:block;text-decoration:none;padding:10px 12px;border-left:2px solid var(--line);font-size:12px;color:var(--muted)}.side-nav a.active{border-color:var(--accent);color:var(--accent);background:var(--soft)}.side-nav b{margin-right:8px;font:12px monospace}.day{margin-bottom:24px;overflow:hidden;scroll-margin-top:20px}.day-header{padding:25px 26px 18px;border-bottom:1px solid var(--line);position:relative}.day-number{font:italic 47px Georgia,serif;color:var(--line);position:absolute;right:24px;top:16px}.day-header h3{font-size:23px;margin:9px 40px 8px 0}.day-header p{font-size:12px;color:var(--muted);margin:0}.day-header .eyebrow{font-size:10px;margin:0}.route-box{margin:16px 24px;background:var(--soft);border-radius:8px}.route-box summary{cursor:pointer;padding:12px 15px;font-size:12px;min-height:44px}.route-inner{padding:0 15px 15px}.route-inner svg{width:100%;height:auto}.route-inner svg text{fill:var(--ink);font-size:12px}.route-links{display:flex;flex-wrap:wrap;gap:7px}.route-links .button{font-size:11px;background:var(--card)}.timeline{padding:6px 26px 8px}.event{display:grid;grid-template-columns:94px 1fr;gap:18px;position:relative}.event-time{font:13px/1.5 monospace;padding:12px 0;color:var(--ink);font-variant-numeric:tabular-nums}.event-time small{display:block;font:9px/1.6 sans-serif;color:var(--muted)}.event-content{border-left:1px solid var(--line);padding:10px 0 14px 21px;position:relative}.event-content:before{content:"";position:absolute;left:-4px;top:20px;width:7px;height:7px;border-radius:50%;background:var(--card);border:1px solid var(--accent)}.event-content strong{font-size:14px;font-weight:600}.event-content p{font-size:12px;color:var(--muted);margin:4px 0 0}.event-content a{text-decoration:none;border-bottom:1px dotted var(--muted)}.event-content a:after{content:" ↗";color:var(--accent);font-size:11px}.day-bottom{padding:16px 26px;background:var(--soft);font-size:12px}.day-bottom p{margin:5px 0}.day-bottom .stay{padding-top:8px;margin-top:10px;border-top:1px solid var(--line)}.todo-list{list-style:none;padding:5px 24px;margin:0;counter-reset:todo}.todo-list li{display:grid;grid-template-columns:30px 1fr;gap:14px;padding:17px 0;border-bottom:1px solid var(--line);font-size:13px;counter-increment:todo}.todo-list li:before{content:counter(todo,decimal-leading-zero);font:italic 20px Georgia,serif;color:var(--accent)}.todo-list li:last-child{border:0}.todo-list small{display:block;color:var(--muted);font-size:12px;margin-top:4px}.tips-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.tip{padding:22px}.tip h3{font-size:16px}.tip p{color:var(--muted);font-size:12px;margin:8px 0}.sources{padding:18px 22px;margin-top:18px}.sources summary{font-size:13px;cursor:pointer}.sources ul{padding-left:18px;font-size:12px;color:var(--muted)}footer{padding:38px 0 100px;text-align:center;color:var(--muted);font-size:11px;letter-spacing:1px}.bottom-nav{position:fixed;bottom:0;left:0;right:0;z-index:5;border-top:1px solid var(--line);background:var(--card);padding:9px 15px max(9px,env(safe-area-inset-bottom));display:flex;gap:5px;overflow-x:auto;justify-content:center;box-shadow:0 -3px 20px #00000008}.bottom-nav a{text-decoration:none;font:12px/36px monospace;min-width:40px;text-align:center;border-radius:6px;white-space:nowrap}.bottom-nav a:hover,.bottom-nav a.active{background:var(--soft);color:var(--accent)}.skip{position:absolute;left:-9999px}.skip:focus{left:10px;top:10px;z-index:10;background:var(--card);padding:10px}.toast{position:fixed;bottom:80px;left:50%;transform:translateX(-50%);padding:12px 20px;background:var(--ink);color:var(--paper);border-radius:8px;font-size:12px;z-index:10;max-width:90vw}.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
+@media(max-width:760px){.wrap{padding:0 18px}.topbar{padding:15px 0}.brand{font-size:9px;letter-spacing:1px}.tools button{padding:5px 9px;font-size:11px}.hero{padding:29px 0 24px;grid-template-columns:1fr}.hero-art{display:none}h1{font-size:42px}.hero p{font-size:12px}.focus{grid-template-columns:1fr;padding:22px;gap:22px}.countdown{border-top:1px solid #ffffff30;padding-top:20px}.countdown b{font-size:42px}.focus h2{font-size:20px}.section{padding-top:32px}.section-head{display:block;margin-bottom:17px}.section-head p{margin-top:7px;font-size:12px}h2{font-size:23px}.map-panel{grid-template-columns:1fr;padding:16px;gap:4px}.overview-svg{max-height:360px}.legend{grid-template-columns:1fr 1fr;column-gap:18px}.legend a{gap:6px;font-size:11px}.legend em{display:none}.bookings{grid-template-columns:1fr}.booking{padding:20px}.day-grid{grid-template-columns:1fr}.side-nav{display:none}.day-header{padding:22px 19px 16px}.day-header h3{font-size:21px}.route-box{margin:14px 16px}.timeline{padding:3px 18px 10px}.event{grid-template-columns:77px 1fr;gap:8px}.event-content{padding-left:15px}.event-time{font-size:11px}.day-bottom{padding:15px 19px}.tips-grid{grid-template-columns:1fr}.tip{padding:18px 20px}.bottom-nav{justify-content:flex-start}.bottom-nav a{flex:0 0 40px}.todo-list{padding:3px 18px}.hero .stamp{font-size:10px}body{font-size:14px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+@media print{.tools,.bottom-nav,.side-nav,.route-box,.focus .button{display:none!important}.wrap{max-width:none;padding:0}.hero{padding:20px 0}.section{padding-top:24px}.day-grid{display:block}.day{break-inside:avoid}.panel{box-shadow:none}.focus{background:#eee;color:#222}.countdown{display:none}.focus{display:block}.tips-grid{grid-template-columns:1fr 1fr}body{background:white;color:#222}footer{padding:20px}}
+
+
+/* =====================================================
+   北海道冰雪视觉主题 + 01—05 真正连续滚动封面
+   图片占位路径见 HTML 内的 assets 注释与 <picture> 标签
+   ===================================================== */
+html{scroll-padding-top:76px}
+body{background:var(--paper);overflow-x:clip}
+.wrap{max-width:1140px}
+.panel{border-radius:20px;border-color:var(--line);box-shadow:var(--shadow)}
+.section{padding-top:45px}.section-no{color:#638EB0}
+.section-head h2{color:var(--ink)}.section-head p{color:var(--muted)}
+.tag.warn{color:var(--blue)}
+.notice{border-left-color:#6C98B9;background:#EAF3F9;border-radius:0 12px 12px 0}
+:root[data-theme=dark] .notice{background:var(--soft)}
+.route-box,.day-bottom{background:var(--soft)}
+.event-content:before{border-color:var(--accent)}
+.focus{border-radius:22px;background:linear-gradient(120deg,#153B5C,#2D668D 68%,#477A99);color:#fff;box-shadow:0 16px 40px rgba(24,58,88,.16)}
+.focus h2{color:#fff}.focus .button{color:#fff}
+.focus .dot{background:#D7EDFB}
+.bottom-nav{background:color-mix(in srgb,var(--card),transparent 8%);backdrop-filter:blur(16px);transform:translateY(130%);opacity:0;pointer-events:none;transition:transform .35s ease,opacity .35s ease}
+.guide-visible .bottom-nav{transform:translateY(0);opacity:1;pointer-events:auto}
+.bottom-nav a.active{background:var(--soft);color:var(--accent)}
+button:focus-visible,a:focus-visible,summary:focus-visible{outline-color:#9ACBEC}
+
+/* The real content follows the sticky cover: NO duplicate screenshot masquerading as a page. */
+.winter-opening{height:184svh;position:relative;isolation:isolate;background:linear-gradient(180deg,#EAF3FA 0%,#F7FAFC 100%)}
+.opening-stage{height:100svh;position:sticky;top:0;overflow:hidden;isolation:isolate;background:linear-gradient(155deg,#183E64 0%,#4D7EA6 56%,#9CC4D9 100%);color:#fff;
+ --photo-y:0svh;--photo-scale:1;--scene-opacity:1;--cover-text-y:0svh;--cover-text-opacity:1;--chrome-opacity:1;--mist-opacity:0;--mist-y:22svh;--banner-opacity:0;--banner-y:-4svh;--banner-scale:1.018}
+.opening-scene,.opening-picture,.opening-picture img{position:absolute;inset:0;width:100%;height:100%}
+.opening-scene{opacity:var(--scene-opacity);will-change:opacity}
+.opening-picture{display:block}
+.opening-picture img{display:block;object-fit:cover;object-position:center 54%;transform:translate3d(0,var(--photo-y),0) scale(var(--photo-scale));transform-origin:center center;will-change:transform}
+.asset-image.asset-missing{opacity:0!important}
+.cover-shade{position:absolute;inset:0;pointer-events:none;background:linear-gradient(90deg,rgba(12,39,69,.76) 0%,rgba(17,48,79,.43) 42%,rgba(12,37,68,.05) 87%),linear-gradient(180deg,rgba(9,35,66,.19),transparent 46%,rgba(6,25,52,.37))}
+.snow-specks{position:absolute;inset:-40px;opacity:.30;pointer-events:none;background-image:radial-gradient(circle at 14% 20%,#fff 0 1.5px,transparent 2px),radial-gradient(circle at 64% 52%,#fff 0 1px,transparent 2px),radial-gradient(circle at 79% 20%,#fff 0 2px,transparent 3px),radial-gradient(circle at 35% 75%,#fff 0 1.5px,transparent 2.5px);background-size:420px 310px;animation:winter-snow 24s linear infinite}
+@keyframes winter-snow{to{transform:translate3d(-32px,60px,0)}}
+.cover-nav{position:absolute;z-index:7;left:0;right:0;top:0;padding:clamp(22px,3vw,42px) clamp(22px,4vw,66px);display:flex;align-items:center;justify-content:space-between;gap:22px;opacity:var(--chrome-opacity)}
+.cover-mark{display:inline-flex;align-items:center;gap:12px;text-decoration:none;color:white;letter-spacing:.19em;font:600 12px/1.1 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.cover-mark svg{flex:none}.cover-mark strong,.cover-mark small{display:block}.cover-mark small{font-size:9px;letter-spacing:.15em;opacity:.85;margin-top:5px}
+.cover-nav-links{display:flex;gap:14px;align-items:center;font-size:12px;letter-spacing:.1em;white-space:nowrap}
+.cover-nav-links a{color:#fff;text-decoration:none}.cover-nav-links i{font-style:normal;opacity:.35}
+.cover-mobile-menu{display:none;color:#fff;text-decoration:none;font-size:26px;line-height:1}
+.cover-text{position:absolute;left:clamp(26px,7vw,116px);top:clamp(140px,19svh,240px);z-index:5;width:min(72vw,940px);transform:translate3d(0,var(--cover-text-y),0);opacity:var(--cover-text-opacity);color:#fff;pointer-events:none}
+.cover-kicker{font-size:11px;letter-spacing:.27em;opacity:.87;margin:0 0 18px;font-weight:600}
+.cover-text h1{font:500 clamp(78px,10.5vw,156px)/.96 "Songti SC","STSong",Georgia,serif;letter-spacing:.045em;margin:0;white-space:nowrap;text-shadow:0 8px 32px rgba(10,26,50,.15)}
+.title-snow{display:inline-block;font:400 .31em/1 sans-serif;vertical-align:top;transform:translate(.13em,.11em);opacity:.94}
+.cover-handwriting{font:italic 400 clamp(24px,3.5vw,56px)/1.2 "Snell Roundhand","Apple Chancery","Segoe Script",cursive;color:#CFE9FC;margin:10px 0 16px;letter-spacing:.018em}
+.cover-corner{position:absolute;right:clamp(26px,5vw,82px);bottom:clamp(92px,15svh,162px);z-index:5;text-align:right;opacity:var(--chrome-opacity);font-size:13px;letter-spacing:.07em}
+.cover-corner span{font-family:"Songti SC","STSong",serif;font-size:18px;display:block;line-height:1.8;margin-bottom:16px}.cover-corner small{font-size:11px}
+.scroll-invite{position:absolute;left:50%;bottom:max(28px,env(safe-area-inset-bottom));transform:translateX(-50%);z-index:8;display:flex;align-items:center;gap:2px;flex-direction:column;white-space:nowrap;color:#fff;text-align:center;text-decoration:none;font-size:12px;line-height:1.4;opacity:var(--chrome-opacity)}
+.scroll-invite small{font-size:11px}.scroll-device{font-size:32px;line-height:1.1;font-weight:200}.scroll-invite b{font-size:23px;line-height:1.15;font-weight:300;animation:invite-bob 1.6s ease-in-out infinite}
+@keyframes invite-bob{50%{transform:translateY(7px)}}
+
+/* 02/03: use the generated fog asset as the organic edge. The old hard SVG ridge is intentionally removed. */
+.mist-layer{position:absolute;inset:-2px 0 0;pointer-events:none;z-index:5;opacity:var(--mist-opacity);transform:translate3d(0,var(--mist-y),0);will-change:opacity,transform}
+.mist-picture,.mist-picture img{position:absolute;inset:0;width:100%;height:100%}
+.mist-picture img{object-fit:cover;object-position:center bottom;filter:blur(.35px) saturate(.9);transform:scale(1.012)}
+.mist-gradient{position:absolute;inset:0;background:linear-gradient(180deg,transparent 0%,rgba(247,250,252,.025) 18%,rgba(247,250,252,.11) 31%,rgba(247,250,252,.34) 47%,rgba(247,250,252,.72) 66%,rgba(247,250,252,.94) 83%,#F7FAFC 100%)}
+.mist-layer::after{content:"";position:absolute;left:-5%;right:-5%;bottom:-7svh;height:34svh;background:linear-gradient(180deg,rgba(247,250,252,0),rgba(247,250,252,.68) 42%,#F7FAFC 88%);filter:blur(18px);transform:translateZ(0)}
+
+/* 04: mini banner is a cross-fade layer, not a rectangular card. Its bottom dissolves into the page. */
+.mini-banner{position:absolute;left:0;right:0;top:0;height:clamp(230px,36svh,390px);opacity:var(--banner-opacity);z-index:6;background:linear-gradient(115deg,#1D4D76,#79A5C6);overflow:hidden;transform:translate3d(0,var(--banner-y),0) scale(var(--banner-scale));transform-origin:top center;will-change:opacity,transform;-webkit-mask-image:linear-gradient(to bottom,#000 0%,#000 57%,rgba(0,0,0,.94) 67%,rgba(0,0,0,.72) 78%,rgba(0,0,0,.32) 90%,transparent 100%);mask-image:linear-gradient(to bottom,#000 0%,#000 57%,rgba(0,0,0,.94) 67%,rgba(0,0,0,.72) 78%,rgba(0,0,0,.32) 90%,transparent 100%)}
+.mini-banner-picture,.mini-banner-picture img{position:absolute;inset:0;width:100%;height:100%}.mini-banner-picture img{object-fit:cover;object-position:center 50%}
+.mini-banner-shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(16,46,76,.72),rgba(16,46,76,.10) 80%),linear-gradient(180deg,rgba(11,37,64,.08) 0%,rgba(11,37,64,.02) 58%,rgba(247,250,252,.32) 83%,rgba(247,250,252,.82) 100%)}
+.mini-banner-copy{position:absolute;left:clamp(24px,6vw,100px);bottom:clamp(72px,10svh,112px);display:flex;align-items:baseline;gap:22px;text-shadow:0 4px 24px rgba(7,24,43,.25)}
+.mini-banner-copy strong{font:500 clamp(30px,4vw,58px)/1 "Songti SC","STSong",serif;white-space:nowrap}.mini-banner-copy strong span{font:400 .38em sans-serif;vertical-align:top}
+.mini-banner-copy em{font:italic 400 clamp(16px,2vw,30px) "Snell Roundhand","Apple Chancery","Segoe Script",cursive;color:#D9EDFD}
+
+/* The document itself starts with a transparent-to-paper fade, so there is no hard horizontal seam. */
+.guide-root{position:relative;z-index:9;margin-top:-68svh;min-height:100svh;background:linear-gradient(180deg,rgba(var(--paper-rgb),0) 0%,rgba(var(--paper-rgb),.42) 3svh,rgba(var(--paper-rgb),.86) 8svh,rgb(var(--paper-rgb)) 15svh,rgb(var(--paper-rgb)) 100%);border-radius:0;box-shadow:none}
+.guide-root::before{content:"";position:absolute;left:0;right:0;top:-15svh;height:24svh;background:linear-gradient(180deg,rgba(var(--paper-rgb),0),rgba(var(--paper-rgb),.12) 20%,rgba(var(--paper-rgb),.58) 63%,rgba(var(--paper-rgb),.96) 100%);filter:blur(7px);pointer-events:none}
+.guide-root>.wrap{position:relative;z-index:1;padding-top:clamp(42px,6.5svh,76px)}
+.topbar{position:relative;z-index:2;margin-bottom:26px;padding:12px 0;border-color:var(--line)}
+.brand{color:var(--accent)}
+.tools button,.button{border-radius:10px}
+.guide-intro{padding:16px 2px 18px}
+.guide-intro-eyebrow{color:#7398B5;font-size:10px;font-weight:600;letter-spacing:.24em;margin-bottom:8px}
+.guide-intro-line{display:flex;align-items:center;justify-content:space-between;gap:20px}
+.guide-intro-line h2{font:500 clamp(25px,3.2vw,38px)/1.35 "Songti SC","STSong",Georgia,serif;letter-spacing:.03em;margin:0 0 6px}
+.guide-intro-line h2 span{font:500 11px/1.2 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;letter-spacing:.1em;color:#7193A9;vertical-align:middle;white-space:nowrap}
+.guide-intro-line p{font-size:12px;color:var(--muted);margin:0}
+.guide-intro-link{flex:none;text-decoration:none;font-size:12px;color:var(--accent);border:1px solid var(--line);border-radius:999px;padding:8px 13px}
+#overview{padding-top:38px;scroll-margin-top:20px;border-top:1px solid rgba(220,232,240,.72)}
+#overview + .focus,.focus{margin-top:38px}
+.map-panel{grid-template-columns:1.6fr 1fr;gap:24px;padding:22px}
+.overview-svg{max-height:480px}.geo-map .sea-label{fill:#83A6BB;font:italic 12px Georgia,serif;letter-spacing:.12em}
+.geo-map .map-credit{fill:#68869c;font:10px/1 monospace}.geo-map .map-orientation{fill:#567890;font:600 11px/1 monospace}
+:root[data-theme=dark] .geo-map{background:#E7F2F8}
+.legend b{color:var(--accent)}
+.day-header{background:linear-gradient(180deg,var(--card),var(--soft))}
+
+@media(max-width:900px){
+ .cover-nav-links{gap:8px;font-size:10px}.cover-text{left:36px;top:23svh;width:80vw}
+ .cover-text h1{font-size:clamp(76px,11.5vw,108px)}.cover-corner{right:25px;bottom:19svh}
+ .map-panel{grid-template-columns:1fr}
+}
+@media(max-width:767px){
+ .winter-opening{height:178svh}
+ .opening-picture img{object-position:55% center}
+ .cover-shade{background:linear-gradient(180deg,rgba(13,40,74,.51) 0%,rgba(13,40,74,.32) 42%,rgba(11,39,69,.21) 62%,rgba(6,27,53,.68) 100%)}
+ .cover-nav{padding:calc(22px + env(safe-area-inset-top)) 22px 0;align-items:flex-start}
+ .cover-mark{gap:10px}.cover-mark svg{width:31px;height:30px}.cover-mark strong{font-size:11px}.cover-mark small{font-size:8px}
+ .cover-nav-links{display:none}.cover-mobile-menu{display:block}
+ .cover-text{left:22px;right:22px;top:clamp(112px,19svh,195px);width:auto;text-align:center}
+ .cover-kicker{font-size:9px;letter-spacing:.19em;margin-bottom:13px}
+ .cover-text h1{font-size:clamp(55px,16vw,88px);letter-spacing:.02em}
+ .cover-handwriting{font-size:clamp(22px,6.2vw,33px);margin:10px 0 16px}
+ .cover-line{font-size:clamp(16px,4.8vw,23px);line-height:1.6;letter-spacing:0}
+ .cover-japanese{font-size:10px;letter-spacing:.02em}
+ .cover-facts{margin-top:clamp(26px,7svh,67px);justify-content:space-between;gap:0;border-top:1px solid rgba(255,255,255,.2);padding-top:14px}
+ .cover-facts>div{width:33.33%;padding:0 7px!important;flex-direction:column;gap:5px;text-align:center}
+ .cover-facts svg{width:26px;height:26px}.cover-facts strong{font-size:12px}.cover-facts small{font-size:10px}
+ .cover-corner{display:none}
+ .scroll-invite{bottom:max(25px,env(safe-area-inset-bottom));font-size:12px}
+ .mini-banner{height:31svh;min-height:190px;max-height:300px}
+ .mini-banner-copy{left:22px;bottom:76px;display:block}
+ .mini-banner-copy strong{display:block;font-size:30px;margin-bottom:5px}.mini-banner-copy em{display:block;font-size:18px}
+ .guide-root{margin-top:-66svh}
+ .guide-root>.wrap{padding-top:46px}
+ .topbar{padding:12px 0;margin-bottom:0}.topbar .brand{font-size:9px}.tools button{font-size:10px;padding:7px 9px}
+ .guide-intro{padding:12px 0 20px}.guide-intro-line{align-items:flex-start;gap:9px}
+ .guide-intro-line h2{font-size:24px}.guide-intro-line h2 span{display:block;margin-top:5px;font-size:9px}
+ .guide-intro-line p{font-size:11px}.guide-intro-link{font-size:10px;padding:6px 8px;white-space:nowrap}
+ #overview{padding-top:21px}.map-panel{padding:13px;gap:10px}
+ .section-head h2{font-size:23px}
+ .legend{grid-template-columns:1fr 1fr;column-gap:14px}
+ .bottom-nav{justify-content:flex-start}
+}
+@media(max-width:390px){.cover-text{top:17svh}.cover-text h1{font-size:55px}.cover-handwriting{font-size:21px}.cover-facts{margin-top:25px}.scroll-invite{bottom:15px}.cover-line{font-size:16px}}
+@media(prefers-reduced-motion:reduce){
+ html{scroll-behavior:auto}
+ .winter-opening{height:100svh}.opening-stage{position:relative}
+ .guide-root{margin-top:0}.cover-text,.cover-nav,.cover-corner,.scroll-invite{opacity:1!important;transform:none!important}
+ .mist-layer,.mini-banner{display:none!important}.opening-picture img{transform:none!important}
+ .snow-specks,.scroll-invite b{animation:none!important}
+ .bottom-nav{transition:none}
+}
+@media print{
+ .winter-opening{height:175mm;break-after:page}.opening-stage{position:relative;height:175mm}
+ .cover-text{opacity:1!important;transform:none!important}.cover-nav{opacity:1!important}
+ .mist-layer,.mini-banner,.scroll-invite,.cover-corner{display:none!important}
+ .guide-root{margin-top:0;box-shadow:none}.guide-root::before{display:none}
+ .bottom-nav{display:none!important}
+}
+
+
+/* Static geo SVG paint: without these explicit styles the browser fills Hokkaido black. */
+.geo-map .geo-island{fill:#F8FCFF;stroke:#9FBCCF;stroke-width:1.6;stroke-linejoin:round}
+.geo-map .geo-route{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:3}
+.geo-map .geo-route-main{stroke:#315F8D}
+.geo-map .geo-route-trip{stroke:#4A98AE;stroke-width:2.8;stroke-dasharray:6 5}
+.geo-map .geo-leader{fill:none;stroke:#668CAD;stroke-width:1.15;stroke-dasharray:3 3;opacity:.76}
+.geo-map .geo-place circle{fill:#2D648E;stroke:#FFF;stroke-width:2.5}
+.geo-map .geo-place rect{fill:#FFFFFF;stroke:#BCD6E7;stroke-width:1;filter:drop-shadow(0 3px 5px rgba(38,76,107,.08))}
+.geo-map .geo-place text{fill:#1D4464;font-size:11px;font-weight:600}
+.geo-map .geo-place .place-sub{fill:#64849B;font-size:9.5px;font-weight:400}
+.geo-map .map-orientation path{stroke:#557992;stroke-width:1.4}
+
+
+
+/* ================= V5: visible mist, ambient motion, seamless cover-to-guide transition ================= */
+:root{--winter-cloud:#F7FAFC}
+.winter-opening{height:184svh}
+.opening-stage{
+ --mist-opacity:0;--mist-y:22svh;--photo-y:0svh;--photo-scale:1.035;--scene-opacity:1;--cover-text-y:0svh;
+ --cover-text-opacity:1;--chrome-opacity:1;--banner-opacity:0;--banner-y:-4svh;--banner-scale:1.018;
+}
+/* Photo and existing source assets remain entirely separate from HTML text. */
+.opening-picture img{transform:translate3d(0,var(--photo-y),0) scale(var(--photo-scale));object-position:center 54%;will-change:transform}
+/* A barely perceptible cinematic drift continues before scrolling. */
+.opening-picture{animation:winter-camera 22s ease-in-out infinite alternate;transform-origin:center center}
+@keyframes winter-camera{from{transform:scale(1)}to{transform:scale(1.018)}}
+.ambient-aura{position:absolute;z-index:2;inset:0;pointer-events:none;background:radial-gradient(ellipse 55% 45% at 69% 27%,rgba(201,227,255,.12),transparent 80%);mix-blend-mode:screen;animation:winter-light 16s ease-in-out infinite alternate}
+@keyframes winter-light{from{opacity:.35;transform:translate3d(-3%,0,0)}to{opacity:.83;transform:translate3d(3%,-1%,0)}}
+/* Snow depth: sharp near flakes and smaller, blurred far flakes use independent speeds. */
+.snowfall-near,.snowfall-far{position:absolute;z-index:3;inset:0;overflow:hidden;pointer-events:none}
+.snowflake{position:absolute;top:-7%;left:var(--x);width:var(--flake-size);height:var(--flake-size);border-radius:50%;background:rgba(255,255,255,var(--flake-opacity));box-shadow:0 0 8px rgba(226,241,255,.3);filter:blur(var(--flake-blur));animation:snowfall var(--duration) linear var(--delay) infinite;will-change:transform}
+@keyframes snowfall{0%{transform:translate3d(0,-12svh,0)}100%{transform:translate3d(var(--drift),116svh,0)}}
+.snowfall-far .snowflake{opacity:.72}
+.cover-text{top:clamp(166px,24svh,290px);width:min(72vw,880px)}
+.cover-kicker{margin-bottom:21px;animation:cover-arrive .9s .10s backwards}
+.cover-text h1{animation:cover-arrive 1s .22s backwards;text-shadow:0 7px 30px rgba(12,37,63,.24)}
+.cover-handwriting{margin:17px 0 0;animation:cover-arrive 1.15s .38s backwards,winter-script-drift 10s 1.6s ease-in-out infinite alternate}
+@keyframes cover-arrive{from{opacity:0;transform:translate3d(0,19px,0)}to{opacity:1;transform:translate3d(0,0,0)}}
+@keyframes winter-script-drift{from{transform:translate3d(0,0,0)}to{transform:translate3d(0,-5px,0)}}
+.title-snow{animation:winter-star 13s ease-in-out infinite alternate;transform-origin:50% 50%}
+@keyframes winter-star{from{opacity:.62;rotate:-10deg;scale:.88}to{opacity:1;rotate:22deg;scale:1.07}}
+.cover-mark{animation:cover-arrive 1s .12s backwards}
+.cover-corner{animation:corner-drift 8s ease-in-out infinite alternate}
+@keyframes corner-drift{from{transform:translateY(0)}to{transform:translateY(-7px)}}
+.scroll-invite{gap:3px}
+.scroll-invite .scroll-device{font-size:27px;animation:device-float 2.8s ease-in-out infinite alternate}
+@keyframes device-float{from{transform:translateY(0);opacity:.7}to{transform:translateY(-6px);opacity:1}}
+/* V5 transition polish: fog, banner and document share one continuous dissolve. */
+.mist-layer{z-index:5;opacity:var(--mist-opacity);transform:translate3d(0,var(--mist-y),0);will-change:opacity,transform}
+.mist-picture,.mist-picture img{display:block;width:100%;height:100%}
+.mist-picture img{object-fit:cover;object-position:center bottom;filter:blur(.35px) saturate(.9);transform:scale(1.012)}
+.mist-gradient{background:linear-gradient(180deg,transparent 0%,rgba(247,250,252,.025) 18%,rgba(247,250,252,.12) 32%,rgba(247,250,252,.38) 49%,rgba(247,250,252,.76) 68%,rgba(247,250,252,.95) 84%,#F7FAFC 100%)}
+.mist-layer::before,.mist-layer::after{content:"";position:absolute;pointer-events:none;left:-6%;right:-6%;z-index:2}
+.mist-layer::before{bottom:7svh;height:33svh;background:radial-gradient(ellipse 48% 45% at 23% 60%,rgba(255,255,255,.84),transparent 78%),radial-gradient(ellipse 60% 48% at 79% 70%,rgba(255,255,255,.80),transparent 82%);filter:blur(30px)}
+.mist-layer::after{bottom:-10svh;height:38svh;background:linear-gradient(180deg,rgba(247,250,252,0),rgba(247,250,252,.74) 38%,#F7FAFC 88%);filter:blur(18px)}
+.guide-root{margin-top:-68svh;box-shadow:none}
+.guide-root::before{top:-15svh;height:24svh;background:linear-gradient(180deg,rgba(var(--paper-rgb),0),rgba(var(--paper-rgb),.14) 22%,rgba(var(--paper-rgb),.62) 66%,rgba(var(--paper-rgb),.97) 100%);filter:blur(7px)}
+.guide-root>.wrap{padding-top:clamp(42px,6.5svh,76px)}
+/* A distinct rhythm between introduction, map and 'up next'. */
+.guide-intro{margin-bottom:clamp(28px,4.2vw,54px);padding:16px 2px clamp(24px,3vw,34px);border-bottom:1px solid var(--line)}
+#overview{padding-top:0;margin-bottom:clamp(34px,4.5vw,56px)}
+.focus{margin-top:clamp(30px,4vw,48px);margin-bottom:clamp(30px,4vw,48px)}
+@media(min-width:768px){.cover-text{top:clamp(166px,24svh,290px)}.cover-handwriting{margin-top:20px}}
+@media(max-width:767px){
+ .winter-opening{height:178svh}
+ .cover-text{top:clamp(194px,29svh,280px);left:18px;right:18px;width:auto;text-align:center}
+ .cover-kicker{margin-bottom:16px;font-size:9px;letter-spacing:.18em}
+ .cover-text h1{font-size:clamp(55px,15vw,75px)}
+ .cover-handwriting{font-size:clamp(21px,6.4vw,32px);margin:14px 0 0}
+ .cover-shade{background:linear-gradient(180deg,rgba(13,40,74,.46) 0%,rgba(13,40,74,.21) 42%,rgba(8,28,53,.17) 65%,rgba(6,27,53,.68) 100%)}
+ .mist-layer::before{filter:blur(22px)}
+ .mini-banner{height:31svh;min-height:190px;max-height:300px}
+ .mini-banner-copy{left:22px;bottom:76px;display:block}
+ .guide-root{margin-top:-66svh}
+ .guide-root>.wrap{padding-top:46px}
+ .guide-intro{margin-bottom:30px;padding:12px 0 24px}
+ #overview{margin-bottom:30px}
+ .focus{margin-top:32px;margin-bottom:38px}
+ .snowfall-near .snowflake:nth-child(n+15){display:none}
+}
+@media(max-width:390px){.cover-text{top:clamp(172px,27svh,255px)}.cover-text h1{font-size:clamp(54px,15.2vw,65px)}.cover-handwriting{font-size:21px}}
+@media(prefers-reduced-motion:reduce){
+ .opening-picture,.ambient-aura,.snowflake,.cover-kicker,.cover-text h1,.cover-handwriting,.cover-mark,.cover-corner,.title-snow,.scroll-invite .scroll-device{animation:none!important}
+ .snowfall-near,.snowfall-far{display:none!important}
+ .mist-layer{display:none!important}
+ .guide-root{margin-top:0!important}
+ .guide-intro{margin-bottom:30px}
+}
+@media print{.snowfall-near,.snowfall-far,.ambient-aura{display:none!important}.guide-root{margin-top:0!important}}
+
+
+
+/* ===== V7 bottom navigation: stable active state + click/scroll arbitration ===== */
+.bottom-nav{
+  position:fixed;
+  left:50%;
+  right:auto;
+  bottom:max(10px,env(safe-area-inset-bottom));
+  width:min(920px,calc(100vw - 28px));
+  z-index:60;
+  display:flex;
+  align-items:center;
+  justify-content:flex-start;
+  gap:4px;
+  padding:7px;
+  overflow-x:auto;
+  overscroll-behavior-x:contain;
+  scrollbar-width:none;
+  -webkit-overflow-scrolling:touch;
+  border:1px solid color-mix(in srgb,var(--line),transparent 8%);
+  border-radius:18px;
+  background:color-mix(in srgb,var(--card),transparent 6%);
+  -webkit-backdrop-filter:blur(18px) saturate(145%);
+  backdrop-filter:blur(18px) saturate(145%);
+  box-shadow:0 12px 34px rgba(24,58,88,.14),0 2px 8px rgba(24,58,88,.06);
+  transform:translate(-50%,calc(100% + 28px));
+  opacity:0;
+  pointer-events:none;
+  transition:transform .38s cubic-bezier(.22,.8,.25,1),opacity .28s ease;
+}
+.bottom-nav::-webkit-scrollbar{display:none}
+.guide-visible .bottom-nav{
+  transform:translate(-50%,0);
+  opacity:1;
+  pointer-events:auto;
+}
+.bottom-nav a{
+  flex:0 0 auto;
+  min-width:44px;
+  height:40px;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:0 12px;
+  border-radius:12px;
+  color:var(--muted);
+  text-decoration:none;
+  white-space:nowrap;
+  font:600 11px/1 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+  letter-spacing:.02em;
+  transition:background-color .2s ease,color .2s ease,transform .2s ease;
+}
+.bottom-nav a:hover{background:var(--soft);color:var(--ink)}
+.bottom-nav a:active{transform:scale(.96)}
+.bottom-nav a.active,
+.bottom-nav a[aria-current="true"]{
+  background:var(--accent);
+  color:#fff;
+  box-shadow:0 5px 14px color-mix(in srgb,var(--accent),transparent 72%);
+}
+:root[data-theme=dark] .bottom-nav{
+  background:color-mix(in srgb,var(--card),transparent 4%);
+  box-shadow:0 14px 34px rgba(0,0,0,.28),0 2px 8px rgba(0,0,0,.16);
+}
+footer{padding-bottom:120px}
+@media(max-width:760px){
+  .bottom-nav{
+    width:calc(100vw - 16px);
+    bottom:max(8px,env(safe-area-inset-bottom));
+    gap:2px;
+    padding:6px;
+    border-radius:16px;
+  }
+  .bottom-nav a{min-width:42px;height:40px;padding:0 10px;font-size:10px}
+  footer{padding-bottom:112px}
+}
+@media(prefers-reduced-motion:reduce){
+  .bottom-nav,.bottom-nav a{transition:none!important}
+}
+@media print{.bottom-nav{display:none!important}}
+
+</style>
+</head>
+<body>
+<a href="#itinerary" class="skip">跳到每日行程</a>
+<!--
+  图片资源放在本 HTML 同级的 assets/ 文件夹。所有图仅包含摄影画面，不含文字/按钮。
+  1) assets/cover-desktop.webp   PC 16:9 或 21:9 雪景封面（必需）
+  2) assets/cover-mobile.webp    手机 9:16 雪景封面（必需）
+  3) assets/fog-desktop.png      PC 透明白雾图（可选，不放时 CSS 渐变仍有效）
+  4) assets/fog-mobile.png       手机透明白雾图（可选）
+  5) assets/banner-desktop.webp PC 横幅，需与封面画面一致或可无缝裁切（建议）
+  6) assets/banner-mobile.webp  手机横幅，可从竖版封面裁切（建议）
+  文件路径都在下方的 <picture>/<img> src / srcset；如改名请同步修改对应属性。
+-->
+<section class="winter-opening" id="winter-opening" aria-label="北海道冬日旅行封面">
+  <div class="opening-stage" id="opening-stage">
+    <div class="opening-scene" aria-hidden="true">
+      <picture class="opening-picture">
+        <source media="(max-width: 767px)" srcset="./assets/cover-mobile.webp">
+        <img class="asset-image cover-image" data-image-asset src="./assets/cover-desktop.webp" alt="" fetchpriority="high" decoding="async">
+      </picture>
+      <div class="cover-shade"></div>
+      <div class="snow-specks"></div>
+    </div>
+
+    <div class="ambient-aura" aria-hidden="true"></div>
+  <div class="snowfall-near" id="snowfall-near" aria-hidden="true"></div>
+  <div class="snowfall-far" id="snowfall-far" aria-hidden="true"></div>
+  <div class="cover-nav">
+      <a href="#winter-opening" class="cover-mark" aria-label="回到北海道旅行封面"><svg width="40" height="36" viewBox="0 0 84 72" aria-hidden="true"><path d="M11 34 23 19l12-2 8-11 10 6 12 1 7 13-4 9 8 8-6 13-13-1-12 9-10-6-10 4-6-12-10-4z" fill="currentColor"/><path d="m9 60 12-8m-6-12L4 33m51 33 9-8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span><strong>HOKKAIDO</strong><small>JAPAN</small></span></a>
+      <nav class="cover-nav-links" aria-label="封面快捷导航"><a href="#overview">一场与雪的约定</a><i aria-hidden="true">|</i><a href="#bookings">山海之间</a><i aria-hidden="true">|</i><a href="#itinerary">冬日限定</a><i aria-hidden="true">|</i><a href="#tips">收藏此刻</a></nav>
+      <a class="cover-mobile-menu" href="#overview" aria-label="前往行程总览">☰</a>
+    </div>
+
+    <div class="cover-text" id="cover-text">
+      <p class="cover-kicker">HOKKAIDO · JAPAN / WINTER 2027</p>
+      <h1>北海道<span class="title-snow" aria-hidden="true">✳</span></h1>
+      <p class="cover-handwriting">Hokkaido Winter Journey</p>
+    </div>
+    <div class="cover-corner" aria-hidden="true"><span lang="ja">北の大地で、<br>きっとまた会える。</span><small>⌖ 小樽运河　OTARU CANAL</small></div>
+    <a href="#guide-root" class="scroll-invite" id="scroll-invite"><span class="scroll-device" aria-hidden="true">▯</span><span>向上滑动</span><small>开启完整攻略</small><b aria-hidden="true">↓</b></a>
+
+    <!-- 02/03 白雾遮罩：使用透明 PNG + 柔和 CSS 渐变，不再使用硬边山峰 SVG -->
+    <div class="mist-layer" aria-hidden="true">
+      <picture class="mist-picture">
+        <source media="(max-width: 767px)" srcset="./assets/fog-mobile.png">
+        <img class="asset-image mist-image" data-image-asset src="./assets/fog-desktop.png" alt="" decoding="async">
+      </picture>
+      <div class="mist-gradient"></div>
+    </div>
+
+    <!-- 04：横幅与正文接缝统一用同一套雪景；横幅本身不烘焙文字 -->
+    <div class="mini-banner" aria-hidden="true">
+      <picture class="mini-banner-picture">
+        <source media="(max-width: 767px)" srcset="./assets/banner-mobile.webp">
+        <img class="asset-image mini-banner-image" data-image-asset src="./assets/banner-desktop.webp" alt="" decoding="async">
+      </picture>
+      <div class="mini-banner-shade"></div>
+      <div class="mini-banner-copy"><strong>北海道 <span>✳</span></strong><em>Hokkaido Winter Journey</em></div>
+    </div>
+  </div>
+</section>
+
+<main class="guide-root" id="guide-root">
+<div class="wrap">
+<header class="topbar"><a class="brand" href="#winter-opening">HOKKAIDO / WINTER 2027</a><div class="tools"><button id="theme" aria-label="切换页面配色">配色 · 自动</button><button id="save">保存离线版 ↓</button></div></header>
+<div class="guide-intro" aria-label="攻略引言">
+  <div class="guide-intro-eyebrow">WINTER JOURNAL / 2027.01.09—01.17</div>
+  <div class="guide-intro-line"><div><h2>雪国旅行手册 <span>· 9 DAYS / 8 NIGHTS</span></h2><p>从札幌的街灯到函馆的夜色，把沿途的雪与海，收进一份随时可以翻开的攻略。</p></div>
+  <a href="#itinerary" class="guide-intro-link">查看每日行程 <span aria-hidden="true">↗</span></a></div>
+</div>
+<section class="section" id="overview"><div class="section-head"><h2><span class="section-no">01</span>一路向北</h2><p>7 晚北海道 · 地图仅展示北海道境内地点，羽田住宿详见预订区。</p></div><div class="panel map-panel"><div><svg class="overview-svg geo-map" viewBox="0 0 780 570" role="img" aria-labelledby="geo-title geo-desc" xmlns="http://www.w3.org/2000/svg">
+<title id="geo-title">北海道真实海岸线与旅行城市位置静态图</title>
+<desc id="geo-desc">按照真实岛屿海岸线与地点经纬度绘制，显示新千岁机场、札幌、小樽、旭川、美瑛、函馆和登别。跨城连接线仅表示行程顺序与方向，不是精确铁路、公路或巴士轨迹。</desc>
+<rect width="780" height="570" rx="18" fill="#e7f2f8"/>
+<g opacity=".38" stroke="#bdd2df" stroke-width="1" stroke-dasharray="3 8"><path d="M0 423.2H780"/><path d="M0 317.8H780"/><path d="M0 212.4H780"/><path d="M0 107.0H780"/><path d="M158.5 0V570"/><path d="M333.0 0V570"/><path d="M507.5 0V570"/><path d="M682.0 0V570"/></g>
+<text x="28" y="39" class="sea-label">SEA OF JAPAN</text><text x="548" y="527" class="sea-label">PACIFIC OCEAN</text>
+<path d="M442.8,423.3 L441.4,431.2 L434.7,425.2 L432.0,420.2 L421.2,414.7 L416.9,410.6 L404.4,408.5 L399.3,404.7 L391.5,403.0 L384.0,397.5 L376.0,395.1 L371.9,391.2 L368.4,390.6 L359.3,385.3 L349.7,375.9 L335.6,372.2 L324.9,362.4 L309.9,357.2 L300.5,356.6 L304.2,354.7 L287.4,360.2 L276.6,365.8 L263.8,375.3 L257.5,378.2 L246.1,391.4 L240.7,389.5 L239.5,387.4 L242.3,386.9 L243.5,389.2 L246.1,386.3 L237.8,383.5 L234.9,375.2 L226.3,370.6 L225.9,366.4 L220.3,361.6 L214.5,361.5 L209.3,363.7 L205.1,361.2 L200.1,361.1 L192.3,368.5 L186.1,378.5 L182.8,389.4 L183.9,396.9 L192.5,399.7 L206.3,411.1 L210.4,411.5 L220.2,408.5 L224.8,410.8 L230.3,419.6 L237.7,424.6 L242.2,431.8 L258.4,438.1 L258.6,440.9 L261.8,442.4 L262.1,444.2 L259.5,445.9 L255.3,445.9 L250.4,452.1 L242.6,453.9 L238.9,450.6 L227.1,447.0 L222.7,447.6 L221.6,450.2 L219.7,450.6 L218.9,447.9 L220.0,446.3 L221.0,447.6 L221.8,446.9 L221.2,443.7 L218.1,441.9 L214.2,442.5 L210.9,450.4 L204.5,454.8 L198.7,455.2 L197.1,456.8 L195.8,472.3 L194.2,474.1 L181.1,477.9 L175.7,486.8 L171.1,483.5 L165.9,484.3 L162.0,481.6 L157.1,470.0 L159.1,455.7 L164.4,448.0 L164.4,443.8 L167.8,443.8 L169.0,442.2 L171.1,430.6 L169.1,423.3 L161.2,411.8 L157.5,409.7 L151.2,408.8 L147.8,400.9 L140.9,399.1 L139.1,396.6 L138.2,390.8 L139.4,386.0 L144.9,378.4 L146.2,379.3 L144.9,378.3 L145.7,374.0 L143.1,358.4 L149.6,351.5 L163.4,349.4 L164.9,346.6 L171.1,343.7 L174.8,335.9 L181.1,342.7 L184.9,341.3 L185.2,336.0 L189.8,330.7 L191.8,331.7 L190.0,330.5 L192.7,325.8 L204.1,318.7 L204.4,314.8 L198.8,308.9 L195.9,302.9 L189.6,298.7 L186.8,294.6 L189.8,284.5 L188.5,282.4 L196.2,282.8 L198.5,281.3 L198.7,278.6 L201.0,278.1 L211.1,286.5 L213.5,286.4 L214.4,289.7 L226.1,293.9 L227.2,298.5 L227.5,297.2 L233.0,296.5 L232.9,294.9 L238.3,295.4 L238.6,294.0 L247.2,292.5 L245.9,296.0 L247.4,298.0 L259.7,302.5 L269.6,297.7 L277.9,289.4 L276.3,293.4 L282.2,283.8 L283.0,273.7 L276.9,263.2 L279.2,254.0 L276.3,250.1 L274.2,241.3 L279.6,232.7 L285.5,229.6 L288.8,229.5 L291.0,227.1 L294.6,227.2 L300.6,220.3 L301.0,217.4 L302.0,218.2 L303.6,206.6 L302.2,179.4 L304.7,177.7 L311.2,166.2 L314.7,147.6 L310.1,117.5 L310.2,119.5 L296.6,89.8 L295.8,82.2 L303.0,69.5 L301.1,64.1 L302.0,59.6 L305.6,64.8 L310.1,64.8 L310.8,63.4 L315.6,64.1 L320.7,61.2 L322.7,54.7 L325.5,52.4 L329.4,52.8 L337.5,64.8 L347.7,71.1 L366.5,92.8 L374.5,100.3 L376.7,100.7 L380.6,108.4 L384.2,111.2 L384.5,115.6 L396.7,131.3 L414.5,146.6 L419.0,152.8 L450.7,173.3 L453.2,177.8 L465.1,184.1 L460.3,182.2 L464.4,184.1 L462.7,185.6 L465.1,186.4 L465.6,184.3 L469.2,185.9 L467.9,185.7 L468.0,187.6 L469.6,185.9 L488.5,193.3 L478.8,192.3 L484.4,201.2 L484.8,199.7 L486.6,202.0 L488.1,201.0 L489.2,202.3 L499.8,200.9 L502.1,203.5 L504.7,199.0 L489.5,193.3 L524.2,201.5 L517.6,203.0 L516.3,209.4 L518.9,211.1 L524.1,207.8 L524.5,201.6 L529.0,200.5 L530.0,208.6 L534.0,214.4 L539.1,216.8 L537.7,218.2 L539.7,218.0 L541.1,220.0 L546.2,220.8 L545.9,219.3 L539.3,216.9 L558.8,220.8 L575.2,220.1 L586.9,212.4 L589.2,207.9 L594.7,204.8 L595.9,201.8 L611.3,191.8 L622.8,176.2 L624.7,176.4 L626.8,183.7 L625.1,189.0 L617.0,199.0 L615.5,206.5 L606.1,217.7 L603.0,223.6 L602.6,230.3 L600.2,232.9 L600.8,238.8 L606.8,249.1 L622.3,254.3 L625.1,256.8 L625.0,259.3 L620.5,259.9 L619.3,258.5 L623.6,258.4 L622.6,258.1 L624.5,256.6 L621.7,256.6 L623.3,256.1 L621.9,254.6 L615.5,255.7 L618.0,253.5 L611.7,251.8 L616.1,262.1 L619.2,275.7 L623.0,281.6 L628.8,286.5 L621.8,283.2 L619.2,280.2 L615.8,280.2 L615.2,281.7 L617.1,282.2 L614.8,282.3 L616.1,283.9 L623.4,284.9 L623.6,286.2 L620.8,285.6 L622.0,288.6 L623.6,287.7 L628.2,289.8 L634.7,290.2 L636.9,288.9 L639.7,292.3 L638.7,295.2 L641.0,292.0 L639.3,289.3 L637.5,289.5 L640.2,285.2 L651.4,276.5 L657.4,277.3 L658.8,276.1 L660.1,277.7 L661.0,275.6 L666.1,277.0 L660.1,282.6 L656.6,282.4 L654.0,284.8 L649.8,284.0 L646.4,288.2 L644.1,287.9 L643.4,294.7 L641.0,295.8 L641.0,298.2 L639.1,298.0 L640.3,300.4 L638.0,301.0 L637.2,298.1 L631.3,298.0 L622.3,300.3 L619.8,299.7 L612.5,303.5 L607.4,302.5 L605.0,304.3 L604.5,308.1 L609.7,309.9 L605.6,310.7 L603.7,309.6 L602.2,313.1 L597.5,314.8 L596.4,312.2 L593.9,311.9 L597.6,316.6 L592.5,319.8 L584.2,319.4 L581.9,316.4 L580.1,316.3 L581.5,313.1 L586.4,315.9 L589.9,312.9 L582.8,310.2 L582.5,307.9 L582.3,312.7 L575.6,312.1 L570.9,318.2 L570.6,320.4 L575.9,324.8 L562.4,322.9 L549.3,324.3 L539.1,321.0 L541.4,319.7 L538.4,317.9 L528.8,317.9 L513.5,322.8 L508.1,326.2 L507.0,325.5 L507.4,326.6 L476.8,350.1 L478.2,350.2 L458.3,372.8 L448.1,391.9 L447.2,397.3 L449.7,401.9 L448.5,411.1 L447.2,418.2 L442.8,423.3Z" class="geo-island"/>
+<g class="geo-routes"><path d="M306.2 341.5 L276.7 311.2" class="geo-route geo-route-main"><title>D1 跨城移动：新千岁机场 → 札幌</title></path><path d="M276.7 311.2 L222.1 447.5" class="geo-route geo-route-main"><title>D5 跨城移动：札幌 → 函馆</title></path><path d="M222.1 447.5 L258.3 370.9" class="geo-route geo-route-main"><title>D7 跨城移动：函馆 → 登别温泉</title></path><path d="M258.3 370.9 L306.2 341.5" class="geo-route geo-route-main"><title>D8 跨城移动：登别温泉 → 新千岁机场</title></path><path d="M276.7 311.2 L245.3 297.7" class="geo-route geo-route-trip"><title>D3 往返：札幌 → 小樽</title></path><path d="M276.7 311.2 L364.9 236.6 L373.8 255.5 L276.7 311.2" class="geo-route geo-route-trip"><title>D4 往返：札幌 → 旭川 → 美瑛 → 札幌</title></path></g>
+<g class="geo-labels"><path d="M306.2 341.5 L373.2 385.5" class="geo-leader"/><g class="geo-place geo-cts"><circle cx="306.2" cy="341.5" r="6"/><rect x="323.2" y="364.5" width="100" height="42" rx="10"/><text x="333.2" y="381.5" class="place-title">新千岁机场</text><text x="333.2" y="397.5" class="place-sub">D1 · D8</text></g><path d="M276.7 311.2 L346.7 298.2" class="geo-leader"/><g class="geo-place geo-sapporo"><circle cx="276.7" cy="311.2" r="6"/><rect x="293.7" y="277.2" width="106" height="42" rx="10"/><text x="303.7" y="294.2" class="place-title">札幌</text><text x="303.7" y="310.2" class="place-sub">4 晚 · D1—D4</text></g><path d="M245.3 297.7 L164.3 295.7" class="geo-leader"/><g class="geo-place geo-otaru"><circle cx="245.3" cy="297.7" r="6"/><rect x="111.3" y="274.7" width="106" height="42" rx="10"/><text x="121.3" y="291.7" class="place-title">小樽</text><text x="121.3" y="307.7" class="place-sub">D3 · 往返</text></g><path d="M364.9 236.6 L423.9 218.6" class="geo-leader"/><g class="geo-place geo-asahikawa"><circle cx="364.9" cy="236.6" r="6"/><rect x="380.9" y="197.6" width="86" height="42" rx="10"/><text x="390.9" y="214.6" class="place-title">旭川</text><text x="390.9" y="230.6" class="place-sub">D4 · 一日团</text></g><path d="M373.8 255.5 L434.8 285.5" class="geo-leader"/><g class="geo-place geo-biei"><circle cx="373.8" cy="255.5" r="6"/><rect x="391.8" y="264.5" width="86" height="42" rx="10"/><text x="401.8" y="281.5" class="place-title">美瑛</text><text x="401.8" y="297.5" class="place-sub">D4 · 一日团</text></g><path d="M222.1 447.5 L257.1 483.5" class="geo-leader"/><g class="geo-place geo-hakodate"><circle cx="222.1" cy="447.5" r="6"/><rect x="214.1" y="462.5" width="86" height="42" rx="10"/><text x="224.1" y="479.5" class="place-title">函馆</text><text x="224.1" y="495.5" class="place-sub">2 晚 · D5—D6</text></g><path d="M258.3 370.9 L174.3 402.9" class="geo-leader"/><g class="geo-place geo-noboribetsu"><circle cx="258.3" cy="370.9" r="6"/><rect x="121.3" y="381.9" width="106" height="42" rx="10"/><text x="131.3" y="398.9" class="place-title">登别温泉</text><text x="131.3" y="414.9" class="place-sub">1 晚 · D7</text></g></g>
+<g class="map-orientation"><text x="715" y="44">N</text><path d="M724 76V54m0 0-5 8m5-8 5 8" fill="none" stroke="#567890" stroke-width="1.6" stroke-linecap="round"/></g>
+<text x="32" y="538" class="map-credit">Coastline: GSHHS · geographic position map</text>
+</svg><p class="note">北海道静态位置图 · 地点按经纬度标注；连线仅表行程顺序，并非铁路或公路轨迹。</p></div><div class="legend" id="legend"></div></div></section>
+<section class="focus" aria-label="此刻关注"><div><div class="focus-label"><span class="dot"></span>此刻关注 / UP NEXT</div><h2 id="next-title">成都出发，旅程将启</h2><small id="next-time">2027/01/09 05:15 · UTC+8</small><div><a id="next-map" class="button" href="https://www.google.com/maps/dir/?api=1&destination=成都双流国际机场T1&dir_action=navigate" target="_blank" rel="noopener">前往地点 ↗</a><a id="next-day" class="button" href="#day1">查看当天行程 ↓</a></div></div><div><div class="countdown" role="timer" aria-label="距下一事件的倒计时"><div><b id="cd-d">—</b><span>天 DAYS</span></div><div><b id="cd-h">—</b><span>时 HRS</span></div><div><b id="cd-m">—</b><span>分 MIN</span></div><div><b id="cd-s">—</b><span>秒 SEC</span></div></div><p id="count-note" style="font-size:11px;opacity:.7;margin:12px 0 0;text-align:right">按事件所在地时区计算</p></div></section>
+
+<section class="section" id="bookings"><div class="section-head"><h2><span class="section-no">02</span>已经订好的安心</h2><p>航班以订单为准 · 全程 1 间房 / 3 人入住</p></div><div class="bookings"><article class="panel booking"><span class="eyebrow">FLIGHTS / 5 SECTORS</span><h3>从成都出发，再一起回家</h3><div id="flights"></div><p class="note">I = 国际航站楼；D = 国内航站楼。登机口以当天显示为准。所有起降时间均为当地时间。</p></article><article class="panel booking"><span class="eyebrow">STAYS / 8 NIGHTS</span><h3>每一晚，都有落脚处</h3><div id="hotels"></div></article></div><div class="notice"><strong>交通与活动预订状态</strong><p>当前方案使用 JR、巴士、市电与步行，无租车安排。旭川／美瑛一日团、特急北斗指定席及景点门票尚未确认预订。酒店早餐、登别晚餐是否包含，需核对订单套餐。</p></div></section>
+<section class="section" id="itinerary"><div class="section-head"><h2><span class="section-no">03</span>把每一天过成风景</h2><p>航班为固定锚点；其余时刻为计划，随天气与实际班次调整。</p></div><div class="day-grid"><nav id="side-nav" class="side-nav" aria-label="每日行程导航"></nav><div id="days"></div></div></section>
+<section class="section" id="todo"><div class="section-head"><h2><span class="section-no">04</span>出发前，记得这些</h2><p>共同待办 · 完成后统一修改手册</p></div><ol class="panel todo-list"><li><div>确认国泰去程为联程票、行李能否直挂新千岁<small>香港衔接仅 85 分钟。若为分开出票且须入境取行李，应联系航司重新安排；不可照此执行。</small></div></li><li><div>确定 1月9日到双流机场的接送<small>目标 05:15（UTC+8）到 T1；按真实出发地址倒推起床和用车时间，提前确认柜台开放时间。</small></div></li><li><div>预订 1月12日旭山动物园＋美瑛一日团<small>确认集合地点、企鹅活动、午餐、门票和青池是否为夜间点灯线路；以下时间以成团通知替换。</small></div></li><li><div>预订三段 JR 指定席<small>1月13日札幌→函馆、1月15日函馆→登别、1月16日登别→南千岁。查询正式班次与发售日，三人尽量相邻。</small></div></li><li><div>确认登别酒店餐食、入住及早班交通<small>是否一泊二食、晚餐最晚入席时间、早餐能否配合出发；确认 1月16日巴士班次，必要时提前预约出租车。</small></div></li><li><div>检查证件、入境手续和旅行保险<small>每人自行离线保存护照、签证、登机凭证与保险资料。不要上传到公开手册。</small></div></li><li><div>出发前复核冬季开放安排<small>旭山动物园企鹅散步、五棱郭点灯、函馆山缆车、地狱谷步道和景点临时休馆；预约项目以官方要求为准。</small></div></li><li><div>准备防滑鞋、保暖层、网络与离线手册<small>每台手机分别保存 HTML 或打印 PDF；地图导航和外部官网需要联网。</small></div></li></ol></section>
+<section class="section" id="tips"><div class="section-head"><h2><span class="section-no">05</span>雪国旅行的小事</h2><p>给路上的你，一点从容。</p></div><div class="tips-grid"><article class="panel tip"><h3>01 / 暖一点，走慢一点</h3><p>采用贴身层、保暖层、防风防水外层。戴帽子、手套，准备防滑防水鞋；进入室内后及时减衣。</p><p>雪地小步走，坡道预留更多时间。手机和备用电池放内袋；拍照不站在车道上。</p></article><article class="panel tip"><h3>02 / 让天气决定余量</h3><p>跨城以 JR 和一日团为主。巴士所示车程是计划值，降雪、路况与高速封闭都可能延长，不据此安排紧接着的预约。</p><p>暴雪时先保航班和住宿衔接。D8 前一晚查运行状态，准备提早出发；出租车也受路况影响。</p></article><article class="panel tip"><h3>03 / 交通与行李</h3><p>大件行李尽量寄存酒店。特急座位、行李规则和各交通 IC 卡使用范围，以运营方为准。</p><p>羽田 T1 到 T3 需另行转移；酒店与 T3 相连。抵达日先取行李，再按机场指示换航站楼。</p></article><article class="panel tip"><h3>04 / 吃饭与温泉</h3><p>冬天别为一家店长时间排队。准备附近替代餐厅，带少量日元现金。酒店套餐未确认前，不把早餐或晚餐当作已含。</p><p>温泉先洗净再入池，遵守旅馆浴场规则。夜间散步以亮灯、开放的温泉街为限。</p></article><article class="panel tip"><h3>05 / 时间不会走错</h3><p>日本为 JST（UTC+9）；成都和香港为 UTC+8。时差 1 小时，跨时区飞行不能直接相减钟面时间。</p><p>倒计时使用完整日期与时区；配色“自动”跟随设备当地时间，06:00—18:00 使用日间色，其余为夜间色。</p></article><article class="panel tip"><h3>06 / 随时能找到帮助</h3><p>日本报警 <a href="tel:110">110</a>；消防／救护 <a href="tel:119">119</a>。酒店电话见预订区；国际拨号已去掉区号前的 0。</p><p>离线手册不提供实时航变或导航。遇停运先查机场、JR 和航司官方通知，必要时请酒店协助。</p></article></div><details class="panel sources"><summary>开放安排与官方查询入口</summary><ul><li><a href="https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html" target="_blank" rel="noopener">日本内阁府节假日</a>：1月11日为成人之日，D1—D3 跨三连休；热门餐厅与交通留出排队余量。</li><li><a href="https://otaru.gr.jp/citizen/winter-bluecanal-2026" target="_blank" rel="noopener">小樽青之运河</a>：本季公布为 2026/11/1—2027/1/31，日落至 22:30 JST，沿浅草桥至中央桥。</li><li><a href="https://sapporoshi-tokeidai.jp/" target="_blank" rel="noopener">札幌钟楼</a>：官网现行入馆 08:45—17:00 JST；D2 上午安排在此范围，出发前查临时休馆。</li><li><a href="https://www.city.asahikawa.hokkaido.jp/asahiyamazoo/index.html" target="_blank" rel="noopener">旭山动物园</a>：冬季常规 10:30—15:30 JST 作为计划参考，2027 当日开放与企鹅活动须复核。</li><li><a href="https://town.biei.hokkaido.jp/culture/event/illuminate.html" target="_blank" rel="noopener">美瑛青池／白须瀑布</a>：冬季积雪覆盖水面；下午白天游览与夜间点灯是不同体验。</li><li><a href="https://www.goryokaku-tower.co.jp/price/" target="_blank" rel="noopener">五棱郭塔</a>：官网现行 09:00—18:00 JST，售票至 17:50；2027 冬季点灯安排另查官方公告。</li><li><a href="https://334.co.jp/" target="_blank" rel="noopener">函馆山缆车</a> · <a href="https://hako-eco.com/" target="_blank" rel="noopener">函馆市热带植物园</a> · <a href="https://www.tv-tower.co.jp/" target="_blank" rel="noopener">札幌电视塔</a>：当日开放、维护或天气停运请查官网。</li><li><a href="https://www.noboribetsu-spa.jp/" target="_blank" rel="noopener">登别观光</a> · <a href="https://www.hokkaidojingu.or.jp/" target="_blank" rel="noopener">北海道神宫</a>：本行程按普通户外参观安排；免费景点的特殊活动、祈祷或导览可能另需预约。</li><li><a href="https://www.jrhokkaido.co.jp/" target="_blank" rel="noopener">JR 北海道</a> · <a href="https://www.cathaypacific.com/" target="_blank" rel="noopener">国泰航空</a> · <a href="https://www.jal.co.jp/" target="_blank" rel="noopener">日本航空</a> · <a href="https://tokyo-haneda.com/access/travel_between_terminals/index.html" target="_blank" rel="noopener">羽田航站楼转移</a>：运行状态、正式时刻与登机要求。</li></ul></details></section>
+<footer>成都 → 北海道 → 东京 → 成都<br>愿每一次出发，都有一起看雪的人。</footer>
+</div></main><nav class="bottom-nav" id="bottom-nav" aria-label="快捷导航"></nav><div class="toast" id="toast" role="status" hidden></div>
+<noscript><p style="padding:24px">请启用浏览器 JavaScript 以显示完整逐日行程、预订和倒计时。此文件所需脚本全部内置，不需要联网。</p></noscript>
+<script>
+'use strict';
+const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const P={tianfu:'成都双流国际机场T1',hkg:'Hong Kong International Airport Terminal 1',cts:'New Chitose Airport Domestic Terminal',ctsi:'New Chitose Airport International Terminal',hnd1:'Haneda Airport Terminal 1',hnd3:'Haneda Airport Terminal 3',sapporo:'Sapporo Station Hokkaido',otaru:'Otaru Station Hokkaido',hakodate:'Hakodate Station Hokkaido',noboribetsu:'Noboribetsu Station Hokkaido',minamichitose:'Minami Chitose Station',sh:'Premier Hotel Nakajima Park Sapporo',hh:'Hotel Global View Hakodate',nh:'滝乃家別館 玉乃湯 登別',th:'Villa Fontaine Grand Haneda Airport',nijo:'Nijo Market Sapporo',clock:'Sapporo Clock Tower',odori:'Odori Park Sapporo',shrine:'Hokkaido Jingu Sapporo',maruyama:'Maruyama Park Sapporo',tower:'Sapporo TV Tower',tanuki:'Tanukikoji Shopping Street Sapporo',susukino:'Susukino Sapporo',sankaku:'Sankaku Market Otaru',canal:'Otaru Canal Asakusabashi',sakaimachi:'Sakaimachi Street Otaru',glass:'Kitaichi Glass Sangokan Otaru',music:'Otaru Music Box Museum Main Building',letao:'LeTAO Main Store Otaru',zoo:'Asahiyama Zoo',biei:'Biei Station Hokkaido',pond:'Shirogane Blue Pond Biei',falls:'Shirahige Waterfall Biei',kanemori:'Kanemori Red Brick Warehouse Hakodate',hachiman:'Hachimanzaka Hakodate',church:'Motomachi Roman Catholic Church Hakodate',ropeway:'Hakodate Ropeway Mountain Base Station',mount:'Mount Hakodate Observatory',morning:'Hakodate Morning Market',yunokawa:'Yunokawa Onsen tram stop Hakodate',botanic:'Hakodate Tropical Botanical Garden',footbath:'Yunokawa Onsen Footbath Yumeguri Butai',goryostop:'Goryokaku Koen Mae tram stop',goryo:'Goryokaku Park Hakodate',goryotower:'Goryokaku Tower',onsen:'Noboribetsu Onsen Bus Terminal',hell:'Noboribetsu Jigokudani',garden:'Haneda Airport Garden'};
+function navUrl(key,origin,mode){const u=new URL('https://www.google.com/maps/dir/');u.searchParams.set('api','1');u.searchParams.set('destination',P[key]||key);u.searchParams.set('dir_action','navigate');if(origin)u.searchParams.set('origin',P[origin]||origin);if(mode)u.searchParams.set('travelmode',mode);return u.href}
+function place(key,label){return '<a href="'+esc(navUrl(key))+'" target="_blank" rel="noopener">'+esc(label)+'</a>'}
+const hotels=[
+{key:'sh',name:'札幌中岛公园普乐美雅酒店',dates:'1/09 入住 → 1/13 退房 · 4 晚',address:'北海道札幌市中央区南10条西6丁目1-21',phone:'+81-11-561-1000',url:'https://premier.kenhotels.com/nakajimapark/guide/access/',info:'豪华双床房 · 订单已确认 · 网上预付 HK$3,943.69；计划 D1 20:40 入住、D5 07:30 退房。'},
+{key:'hh',name:'环球景观酒店函馆',dates:'1/13 入住 → 1/15 退房 · 2 晚',address:'北海道函馆市大森町25-3',phone:'+81-138-23-8585',url:'https://www.rio-hotels.co.jp/hakodate/details.html',info:'豪华双床房 A（带淋浴）；D5 中午寄存、晚间入住，D7 08:30 前退房。'},
+{key:'nh',name:'滝乃家别馆玉乃汤',dates:'1/15 入住 → 1/16 退房 · 1 晚',address:'北海道登别市登别温泉町31',phone:'+81-143-84-3333',url:'https://www.tamanoyu.biz/contact/',info:'日式房（10 榻榻米）；计划 15:30 入住、次日 08:00 前退房；餐食待核实。'},
+{key:'th',name:'维拉芳泉羽田机场大酒店',dates:'1/16 入住 → 1/17 退房 · 1 晚',address:'东京都大田区羽田空港2-7-1',phone:'+81-3-6459-9770',url:'https://www.hvf.jp/hanedaairport-grand/',info:'中型双床房（ReFa）；T3 直接相连，计划 16:00 入住、次日 06:30 退房。'}];
+const flights=[['1/09','国泰航空 · CX917','08:15','成都双流 T1','tianfu','UTC+8','11:00','香港国际 T1','hkg','UTC+8'],['1/09','国泰航空 · CX586','12:25','香港国际 T1','hkg','UTC+8','17:50','札幌新千岁 I','ctsi','JST UTC+9'],['1/16','日本航空 · JL510','12:55','札幌新千岁 D','cts','JST UTC+9','14:40','东京羽田 T1','hnd1','JST UTC+9'],['1/17','国泰航空 · CX543','10:10','东京羽田 T3','hnd3','JST UTC+9','14:30','香港国际 T1','hkg','UTC+8'],['1/17','国泰航空 · CX916','19:15','香港国际 T1','hkg','UTC+8','22:10','成都双流 T1','tianfu','UTC+8']];
+$('flights').innerHTML=flights.map(f=>'<div class="flight"><div class="flight-head"><span>2027/'+f[0]+'</span><span>'+f[1]+'</span></div><div class="flight-line"><div><b>'+f[2]+'</b><span>'+place(f[4],f[3])+'<br>'+f[5]+'</span></div><span>→</span><div><b>'+f[6]+'</b><span>'+place(f[8],f[7])+'<br>'+f[9]+'</span></div></div></div>').join('');
+$('hotels').innerHTML=hotels.map(h=>'<div class="hotel"><span class="tag">'+h.dates+'</span><h3 style="margin-top:9px">'+place(h.key,h.name)+'</h3><p>'+h.address+'</p><p>3 人 / 1 间 · '+h.info+'<br>以上计划时刻均为 JST（UTC+9），酒店实际入住政策以订单为准。</p><div class="links"><a href="tel:'+h.phone+'">'+h.phone+'</a><a href="'+h.url+'" target="_blank" rel="noopener">酒店官网 ↗</a></div></div>').join('');
+// 每条事件：[当地开始时间、结束时间、标题、说明、地点键、状态标签、UTC偏移（默认+09:00）]。
+const days=[
+{n:1,date:'2027-01-09',title:'成都 → 香港 → 札幌',theme:'抵达北海道，把步调放慢',stay:0,color:'#3C78A6',route:[['tianfu','成都双流 T1'],['hkg','香港 T1'],['ctsi','新千岁 I'],['sapporo','札幌站'],['sh','札幌酒店']],segments:[['ctsi','sapporo','transit','机场 → 札幌 JR'],['sapporo','sh','transit','札幌站 → 酒店']],note:'香港只有 85 分钟转机时间。入境取行李所需时间无法保证；晚到就取消散步，直接入住用餐。',backup:'起床与出门时间按实际接送车程倒推，建议 05:15 到机场。此为预留 3 小时的计划目标，并非柜台开放时间。',events:[['05:15','','抵达双流机场 T1','预留值机、托运、安检与出境时间。请提前确认柜台何时开放。','tianfu','提前安排','+08:00'],['08:15','','CX917 · 成都 → 香港','国泰航空；到达当地时间 11:00。','tianfu','已出票','+08:00'],['11:00','12:00','香港转机','下机立即查看下一程登机口，经过转机安检；以登机牌的登机时间为准。','hkg','','+08:00'],['12:25','','CX586 · 香港 → 新千岁','抵达日本后钟表快 1 小时，17:50 为日本时间。','hkg','已出票','+08:00'],['17:50','19:00','入境、领取行李','新千岁国际航站楼；如有排队，后续整体顺延。','ctsi'],['19:00','19:20','步行至机场 JR 站','沿 JR 指示步行，购买车票，确认当晚班次。','cts'],['19:20','20:00','JR Airport → 札幌','预计乘车时间窗，不是已订车次。','sapporo','班次待定'],['20:00','20:40','前往酒店、办理入住','从札幌站乘地铁或出租车；雪地携行李预留余量。','sh'],['20:45','22:00','酒店附近晚餐','优先吃热食；有余力才去狸小路、薄野短暂散步。','susukino'],['22:00','','回酒店休息','第一晚不安排正式景点。','sh']]},
+{n:2,date:'2027-01-10',title:'札幌，第一次见面',theme:'市场的热气，公园的雪，街角的灯',stay:0,color:'#51849A',route:[['nijo','二条市场'],['clock','钟楼'],['odori','大通公园'],['shrine','北海道神宫'],['sapporo','札幌站'],['tower','电视塔'],['tanuki','狸小路'],['susukino','薄野']],segments:[['nijo','odori','walking','市场 → 大通',['clock']],['odori','shrine','transit','大通 → 神宫'],['shrine','sapporo','transit','神宫 → 札幌站'],['sapporo','sh','transit','札幌站 → 酒店'],['sh','tower','transit','酒店 → 电视塔'],['tower','susukino','walking','夜间散步',['odori','tanuki']]],note:'1月10日为三连休中的周日，市场和餐厅可能排队。钟楼现行入馆时间覆盖上午安排，电视塔临时维护仍需出发前复核。',backup:'风雪大时缩短大通公园和圆山公园，把时间留给札幌站室内购物。午餐选择汤咖喱或成吉思汗烤肉。',events:[['07:30','','起床','穿防滑鞋，准备帽子和手套。','sh'],['08:00','09:00','二条市场早餐','海鲜丼、烤海鲜、北海道牛奶；按店铺开门时间选择。','nijo'],['09:15','09:45','札幌钟楼','入内参观；门票未订，可按当日售票安排。','clock','门票未订'],['09:50','10:40','大通公园','雪景散步，天气差就缩短停留。','odori'],['10:40','11:15','前往圆山公园','地铁加步行，给雪地路段留时间。','maruyama'],['11:15','12:30','北海道神宫＋圆山公园','普通参拜与公园散步；特殊祈祷、活动另询。','shrine'],['12:30','13:00','回札幌市中心','午餐与室内休息。','sapporo'],['13:00','14:00','午餐','汤咖喱或成吉思汗烤肉，热门店有备选。','sapporo'],['14:00','16:00','札幌站周边逛街','自由购物，提前补充第二天所需物品。','sapporo'],['16:00','17:20','回酒店休息','保留路程与暖身时间。','sh'],['17:30','18:30','晚餐','在酒店附近或前往电视塔途中解决。','susukino'],['18:40','19:30','札幌电视塔','看城市夜景，确认当晚最后入场时间。','tower','门票未订'],['19:30','20:15','大通公园夜景','夜间很冷，按体感缩短。','odori'],['20:20','21:20','狸小路 → 薄野','散步、购物，不必走完全程。','tanuki'],['21:30','','返回酒店','为小樽一日游休息。','sh']]},
+{n:3,date:'2027-01-11',title:'小樽，等一场蓝调',theme:'玻璃、音乐盒，与天黑后的运河',stay:0,color:'#5E8AAF',route:[['sapporo','札幌站'],['otaru','小樽站'],['sankaku','三角市场'],['canal','运河'],['glass','北一硝子'],['music','音乐盒堂'],['letao','LeTAO'],['canal','运河点灯'],['otaru','小樽站']],segments:[['sapporo','otaru','transit','札幌 → 小樽'],['otaru','glass','walking','上午步行',['sankaku','canal']],['glass','otaru','walking','下午步行',['music','letao','canal']],['otaru','sapporo','transit','小樽 → 札幌']],note:'成人之日假期，热门海鲜店与 JR 可能更拥挤。青之运河本季为 11/1—1/31，日落亮灯；蓝调时间受天气影响，不能保证某一分钟的色彩。',backup:'15:40 开始回运河，留出雪地步行时间；不为赶一家甜品店错过暮色。商店提前关门时先看运河。',events:[['07:20','','起床','轻装出门。','sh'],['08:00','08:30','酒店 → 札幌站','早餐可在三角市场安排。','sapporo'],['08:30','09:15','JR 札幌 → 小樽','计划时间窗，按正式班次执行。','otaru','班次待定'],['09:15','10:00','三角市场','早餐：海鲜丼；排队太长就换店。','sankaku'],['10:15','11:00','小樽运河','先看白天雪景。','canal'],['11:00','11:30','运河仓库群','沿岸慢走、拍照。','canal'],['11:30','12:00','前往堺町通','注意路面积冰。','sakaimachi'],['12:00','13:00','小樽午餐','寿司或海鲜。','sakaimachi'],['13:00','13:45','北一硝子','本行程为店铺浏览，不含玻璃制作体验预约。','glass'],['13:50','14:40','小樽音乐盒堂','参观主馆商店；制作体验若参加需另行预约。','music'],['14:40','15:40','LeTAO ＋ 堺町通','甜点、咖啡和伴手礼。','letao'],['15:40','16:10','返回小樽运河','预留步行，不紧卡日落。','canal'],['16:10','17:20','运河暮色与青之运河','日落后看灯；本季官方亮灯至 22:30 JST。','canal'],['17:20','18:30','小樽站 → 札幌','17:40 左右出发为目标，实际按列车时刻。','sapporo','班次待定'],['19:00','20:30','札幌晚餐','吃热食，早点回酒店。','susukino'],['21:00','','返回酒店','明天需要早起集合。','sh']]},
+{n:4,date:'2027-01-12',title:'旭川与美瑛，雪原来信',theme:'一日巴士团 · 本日全部时刻以成团通知为准',stay:0,color:'#408A9C',route:[['sapporo','札幌集合'],['zoo','旭山动物园'],['biei','美瑛'],['pond','白金青池'],['falls','白须瀑布'],['sapporo','返回札幌']],segments:[['sapporo','falls','driving','巴士线路参考',['zoo','biei','pond']],['falls','sapporo','driving','返程线路参考']],note:'目前尚未订团。去程约 2.5—3.5 小时、返程约 3—4 小时仅作规划余量，暴雪可显著延长。企鹅散步取决于积雪和动物状态，不保证举办。',backup:'青池冬天常被冰雪覆盖，下午看的是雪景。若希望看夜间点灯，应选择明确包含夜场的团，并接受更晚回札幌。',events:[['06:30','','起床','早起，带水、零食和充电宝。','sh'],['07:00','07:20','早餐','如酒店未开餐，提前准备便利店早餐。','sh'],['07:30','07:45','札幌站附近集合','具体集合地址尚未确认，不能直接把札幌站当作最终上车点。','sapporo','需预订'],['07:45','10:30','巴士前往旭山动物园','受雪况影响，路程可能延长。','zoo'],['10:30','12:20','旭山动物园','企鹅、北极熊、海豹；冬季常规开放时间作参考。','zoo','随团确认门票'],['12:20','13:40','前往美瑛、午餐休息','是否含餐以团费套餐为准。','biei'],['14:00','14:40','白金青池','白天冰雪景观；此时间不承诺看到点灯或蓝色池水。','pond'],['14:50','15:20','白须瀑布','冰雪与流水；桥面防滑。','falls'],['15:30','16:00','美瑛雪原沿途','仅在司机允许的安全停车点拍照。','biei'],['16:00','20:00','巴士返回札幌','正常目标 19:00—20:00 抵达，可能因路况推迟。','sapporo'],['20:00','21:00','晚餐、返回酒店','整日较累，不再加景点；酒店时间随回程顺延。','sh']]},
+{n:5,date:'2027-01-13',title:'南下函馆，把夜色收藏',theme:'特急列车的窗外，山顶的万家灯火',stay:1,color:'#4671A9',route:[['sapporo','札幌站'],['hakodate','函馆站'],['hh','酒店寄存'],['kanemori','红砖仓库'],['hachiman','八幡坂'],['church','元町教会'],['ropeway','缆车山麓'],['mount','函馆山']],segments:[['sapporo','hakodate','transit','札幌 → 函馆'],['hakodate','hh','walking','车站 → 酒店'],['hh','ropeway','walking','市区散步',['kanemori','hachiman','church']],['ropeway','hh','walking','下山后 → 酒店']],note:'特急北斗尚未订，先以上午出发、中午到达为目标。若列车抵达晚，删减仓库和教会停留，先到函馆山；不要压缩雪地步行和缆车排队。',backup:'缆车停运或山顶能见度差，改至 D6 晚上。这样 D6 五棱郭塔提前到 14:40—15:30 JST，放弃五棱郭点灯，留足跨城转场。',events:[['06:45','','起床','准备跨城移动。','sh'],['07:00','07:30','早餐、退房整理','带齐行李。','sh'],['07:30','08:10','退房 → 札幌站','雪天带箱子建议预留更多时间。','sapporo'],['08:30','12:45','特急北斗 → 函馆','目标 08:30—09:00 左右出发；时刻与时长需以实际车次重排。','hakodate','需订指定席'],['12:45','13:15','酒店寄存行李','函馆站至酒店官网提示步行约 13 分钟；雪天可乘出租车。','hh'],['13:15','14:00','午餐','简单用餐，避免久等。','hh'],['14:00','14:40','金森红砖仓库','路程需计入；晚点时优先删减此段。','kanemori'],['14:40','15:10','八幡坂','坡道小步走，拍照注意车辆。','hachiman'],['15:10','15:35','元町教会群','以外观散步为主，不保证所有教堂内部开放。','church'],['15:35','16:10','缆车山麓站、排队上山','排队时间不确定，保暖并查风况。','ropeway','门票未订'],['16:10','17:15','函馆山暮色与夜景','天气允许时等城市亮灯；不承诺准确日落时刻。','mount'],['17:15','18:00','下山、元町散步','以实际缆车排队情况决定是否再拍照。','hachiman'],['18:15','19:30','函馆晚餐','盐味拉面、海鲜或烤乌贼。','kanemori'],['19:30','20:00','函馆湾夜景','有余力再散步。','kanemori'],['20:30','','回酒店办理入住、休息','入住时间需符合酒店实际政策。','hh']]},
+{n:6,date:'2027-01-14',title:'函馆，雪中的五角星',theme:'海鲜朝市、温泉猴与五棱郭',stay:1,color:'#5B7EA4',route:[['morning','函馆朝市'],['yunokawa','汤之川温泉'],['botanic','热带植物园'],['footbath','足汤'],['goryostop','五棱郭电停'],['goryo','五棱郭公园'],['goryotower','五棱郭塔']],segments:[['hh','morning','walking','酒店 → 朝市'],['morning','yunokawa','transit','朝市 → 汤之川'],['yunokawa','footbath','walking','汤之川散步',['botanic']],['footbath','goryostop','transit','汤之川 → 五棱郭电停'],['goryostop','goryotower','walking','电停 → 公园／塔',['goryo']],['goryotower','hh','transit','五棱郭 → 酒店']],note:'五棱郭公园前电停不在公园门口，须留出步行。五棱郭塔当前官网营业至 18:00 JST；2027 点灯尚须复核，不能视为已确认演出。',backup:'若补看函馆山，缩短公园与咖啡停留，14:40—15:30 JST 上五棱郭塔，之后直接转往函馆山；不同时承诺两处暮色。',events:[['06:40','','起床','前往朝市。','hh'],['07:00','08:20','函馆朝市早餐','海鲜丼；店铺开门情况各异。','morning'],['09:00','09:40','市电前往汤之川温泉','包含候车的计划时间窗。','yunokawa'],['09:40','10:00','步行至热带植物园','冬季道路预留余量。','botanic'],['10:00','11:00','函馆市热带植物园','看温泉猴；当天开放和动物展示以园方为准。','botanic','门票未订'],['11:30','12:20','汤之川午餐','附近选择营业中的餐馆。','yunokawa'],['12:20','12:40','汤之川温泉足汤','确认当日开放，带小毛巾。','footbath'],['12:45','13:25','市电 → 五棱郭公园前','车次与候车时间以现场为准。','goryostop'],['13:25','13:45','电停步行至公园','不要把电停到站当作抵达公园。','goryo'],['13:45','14:40','五棱郭公园','欣赏五角星雪景；未安排箱馆奉行所入馆。','goryo'],['14:40','15:20','咖啡、暖身休息','冷时可提前进塔。','goryotower'],['15:20','17:20','五棱郭塔','看白天至暮色；冬季点灯以当季公告为准。','goryotower','门票未订'],['17:30','18:00','离开五棱郭','返回晚餐区域。','goryostop'],['18:00','19:30','晚餐','今晚自由活动，或直接回酒店。','hh']]},
+{n:7,date:'2027-01-15',title:'登别，让热气包围冬天',theme:'今天的关键词：雪景、温泉、休息',stay:2,color:'#6889B2',route:[['hakodate','函馆站'],['noboribetsu','登别站'],['onsen','温泉巴士站'],['nh','玉乃汤'],['hell','地狱谷'],['nh','返回旅馆']],segments:[['hh','hakodate','walking','酒店 → 函馆站'],['hakodate','noboribetsu','transit','函馆 → 登别'],['noboribetsu','onsen','transit','车站 → 温泉街'],['onsen','nh','walking','温泉街散步',['hell']]],note:'登别站与登别温泉不是同一地点，需换巴士。冬季地狱谷部分栈道可能封闭，只走当日开放区域；不安排大汤沼和天然足汤的雪中远足。',backup:'一泊二食尚未从订单确认。先联系酒店确认晚餐与最晚入席时间，若不含餐提前安排温泉街餐厅。',events:[['07:00','','起床','慢慢吃早餐。','hh'],['07:30','08:10','早餐','检查有无遗留物品。','hh'],['08:10','08:30','整理行李、退房','前往函馆站。','hh'],['08:30','09:00','前往函馆站','预留检票、寻找站台时间。','hakodate'],['09:00','12:00','特急北斗 → 登别','目标 09:00—09:30 左右出发；实际车次尚未预订。','noboribetsu','需订指定席'],['12:00','12:40','巴士 → 登别温泉、寄存行李','需考虑列车与巴士衔接候车时间。','nh'],['12:40','13:20','午餐','找一处暖和的地方休息。','onsen'],['13:20','13:40','温泉街散步','沿街前往地狱谷方向。','onsen'],['13:40','15:00','登别地狱谷','只走开放路径，勿越过封闭标志。','hell'],['15:00','15:30','返回酒店、办理入住','以酒店实际可入住时间为准。','nh'],['16:00','17:15','第一次泡温泉','遵守浴场开放与使用规则。','nh'],['17:15','18:00','房间休息','为晚餐留胃口。','nh'],['18:00','19:30','晚餐','酒店用餐须先确认套餐和入席时间。','nh','餐食待确认'],['19:30','20:10','温泉街短途散步','可选；风雪大直接留在旅馆。','onsen'],['20:15','21:15','第二次泡温泉','按体力选择。','nh'],['22:00','','休息','今晚核对明早机场交通。','nh']]},
+{n:8,date:'2027-01-16',title:'告别北海道，落脚羽田',theme:'把伴手礼装好，给返程留一点余量',stay:3,color:'#367D96',route:[['nh','登别旅馆'],['noboribetsu','登别站'],['minamichitose','南千岁'],['cts','新千岁 D'],['hnd1','羽田 T1'],['th','羽田酒店'],['garden','机场花园']],segments:[['nh','noboribetsu','transit','温泉街 → 登别站'],['noboribetsu','minamichitose','transit','登别 → 南千岁'],['minamichitose','cts','transit','南千岁 → 机场'],['hnd1','hnd3','transit','羽田 T1 → T3'],['hnd3','th','walking','T3 → 酒店'],['th','garden','walking','酒店 → 机场花园']],note:'以 12:55 航班为不可移动的锚点。08:00 退房、约 10:00 到机场是计划目标，需据已订 JR 和巴士时刻重排；班次不衔接就更早出发。',backup:'把午餐提前，并争取 11:45 前进入安检，不等到 12:15 才排队。冬季交通延误时优先取消泡汤、购物；不去东京市中心。',events:[['06:30','','起床','先确认铁路和巴士运行状态。','nh'],['06:45','07:10','最后一次泡温泉','可选；早班交通需要时取消。','nh'],['07:10','07:40','早餐','需提前和旅馆确认供应时间，必要时替换为便携早餐。','nh'],['07:40','08:00','整理行李、退房','比原计划略提前，给机场交通留余量。','nh'],['08:00','08:45','前往 JR 登别站','巴士时刻尚未确认；无合适班次则提前预约出租车。','noboribetsu','提前确认交通'],['09:00','10:15','登别 → 南千岁 → 新千岁机场','目标约 10:00 抵达，正式车次确定后重排；南千岁留换乘时间。','cts','需订指定席'],['10:15','10:45','值机、托运行李','新千岁国内航站楼，确认登机口。','cts'],['10:45','11:15','购买北海道伴手礼','交通晚点时取消购物。','cts'],['11:15','11:45','午餐、前往安检','尽早进入安检，服从航司实际截止时间。','cts'],['11:45','12:15','通过安检，前往登机口','候机，不安排回头购物。','cts'],['12:55','','JL510 · 新千岁 → 羽田','抵达羽田 T1：14:40 JST。','cts','已出票'],['14:40','15:30','羽田 T1 到达、取行李','之后转移至 T3，酒店不在 T1。','hnd1'],['15:30','16:15','T1 → T3，步行到酒店入住','按机场官方指示使用航站楼交通，再步行进机场花园。','th'],['16:30','17:00','酒店休息','今天不安排东京市中心。','th'],['17:00','19:30','羽田 T3／机场花园','晚餐、购物，提前熟悉明早出发层。','garden'],['20:00','','返回酒店','整理返程行李。','th'],['21:30','','休息','明早国际航班。','th']]},
+{n:9,date:'2027-01-17',title:'带着雪国的记忆回家',theme:'羽田 → 香港 → 成都',stay:null,color:'#7A92AB',route:[['th','羽田酒店'],['hnd3','羽田 T3'],['hkg','香港 T1'],['tianfu','成都双流 T1']],segments:[['th','hnd3','walking','酒店 → 国际出发 T3']],note:'酒店与 T3 相连，但房间到出发柜台仍要步行。香港转机 4 小时 45 分，留在机场休息；所有登机口以当天航司通知为准。',backup:'09:30 与 18:15 只是到登机口的计划时刻。若登机牌要求更早，提前前往；香港抵达后把设备时间切换为 UTC+8。',events:[['05:45','06:30','起床、洗漱、整理行李','复核证件、行李和随身物品。','th'],['06:30','07:00','退房、步行至羽田 T3 出发层','酒店直连 T3，预留找柜台和步行时间。','hnd3'],['07:00','07:40','值机、托运行李','以柜台实际开放时间为准。','hnd3'],['07:40','08:10','安检、出境','优先完成手续。','hnd3'],['08:10','09:00','机场早餐','在出境后区域吃饭。','hnd3'],['09:00','09:30','最后采购','先确认登机口距离。','hnd3'],['09:30','','到登机口候机','遵守登机牌标明的登机时间。','hnd3'],['10:10','','CX543 · 羽田 → 香港','香港当地时间 14:30 抵达；时区回到 UTC+8。','hnd3','已出票'],['14:30','18:00','香港机场转机休息','转机手续、吃饭、咖啡和免税店；不出机场。','hkg','','+08:00'],['18:15','','前往登机口','再次确认 CX916 登机口。','hkg','','+08:00'],['19:15','','CX916 · 香港 → 成都','到达天府 T1：22:10 UTC+8。','hkg','已出票','+08:00'],['22:10','','抵达成都，旅行结束','入境、取行李，安排回家交通。','tianfu','','+08:00']]}
+];
+function routeUrl(seg){const u=new URL(navUrl(seg[1],seg[0],seg[2]));if(seg[4])u.searchParams.set('waypoints',seg[4].map(k=>P[k]||k).join('|'));return u.href}
+function routeSvg(d){const n=d.route.length,rows=Math.ceil(n/3),height=rows*76+20;let nodes=d.route.map((v,i)=>({x:58+(i%3)*130,y:28+Math.floor(i/3)*76,v}));return '<svg viewBox="0 0 380 '+height+'" role="img" aria-label="第'+d.n+'天路线顺序示意，非等比例地图"><path d="'+nodes.map((p,i)=>(i?'L':'M')+p.x+' '+p.y).join(' ')+'" fill="none" stroke="'+d.color+'" stroke-width="2" stroke-dasharray="4 4"/>'+nodes.map((p,i)=>'<a href="'+esc(navUrl(p.v[0]))+'" target="_blank" rel="noopener"><circle cx="'+p.x+'" cy="'+p.y+'" r="13" fill="var(--card)" stroke="'+d.color+'"/><text x="'+p.x+'" y="'+(p.y+4)+'" text-anchor="middle">'+(i+1)+'</text><text x="'+p.x+'" y="'+(p.y+33)+'" text-anchor="middle">'+esc(p.v[1])+'</text></a>').join('')+'</svg>'}
+const events=[];
+$('days').innerHTML=days.map(d=>{let weekday=new Intl.DateTimeFormat('zh-CN',{weekday:'long',timeZone:'Asia/Tokyo'}).format(new Date(d.date+'T12:00:00+09:00'));let timeline=d.events.map(e=>{const offset=e[6]||'+09:00',tz=offset==='+09:00'?'JST · UTC+9':'UTC+8';events.push({at:Date.parse(d.date+'T'+e[0]+':00'+offset),title:e[2],key:e[4],day:d.n,label:d.date.replaceAll('-','/')+' '+e[0]+' '+tz,planned:e[5]!=='已出票'});return '<div class="event"><div class="event-time"><time datetime="'+d.date+'T'+e[0]+':00'+offset+'">'+e[0]+'</time>'+(e[1]?'<br>– '+e[1]:'')+'<small>'+tz+'</small></div><div class="event-content"><strong>'+place(e[4],e[2])+'</strong>'+(e[5]?'<div><span class="tag '+(e[5]==='已出票'?'':'warn')+'">'+esc(e[5])+'</span></div>':'')+'<p>'+esc(e[3])+'</p></div></div>'}).join('');return '<article class="panel day" id="day'+d.n+'"><header class="day-header"><span class="day-number">0'+d.n+'</span><p class="eyebrow">DAY 0'+d.n+' / JANUARY '+d.date.slice(-2)+'</p><h3>'+d.title+'</h3><p>'+d.date.replaceAll('-','.')+' · '+weekday+'　｜　'+d.theme+'</p></header><details class="route-box"><summary>展开当日路线图与全天导航 ↗</summary><div class="route-inner">'+routeSvg(d)+'<div class="route-links">'+d.segments.map(s=>'<a class="button" href="'+esc(routeUrl(s))+'" target="_blank" rel="noopener">'+s[3]+' ↗</a>').join('')+'</div><p class="note">按顺序打开各段导航。公共交通不支持多途经点，步行段最多 3 个途经点；飞行不生成地面导航。巴士线路仅供参考，不代表自驾安排。</p></div></details><div class="timeline">'+timeline+'</div><div class="day-bottom"><p><strong>今日提醒</strong>　'+esc(d.note)+'</p><p><strong>留一点余地</strong>　'+esc(d.backup)+'</p><p class="stay">'+(d.stay===null?'今晚回家 · 成都':('今晚住这里　'+place(hotels[d.stay].key,hotels[d.stay].name)))+'</p></div></article>'}).join('');
+$('legend').innerHTML=days.map(d=>'<a href="#day'+d.n+'"><b style="color:'+d.color+'">D'+d.n+'</b><span>'+['抵达札幌','札幌市区','小樽往返','旭川 / 美瑛','札幌 → 函馆','函馆一日','函馆 → 登别','新千岁 → 羽田','香港 → 成都'][d.n-1]+'</span><em>'+['札幌','札幌','札幌','札幌','函馆','函馆','登别','羽田','回家'][d.n-1]+'</em></a>').join('');
+$('side-nav').innerHTML=days.map(d=>'<a href="#day'+d.n+'"><b>0'+d.n+'</b>'+d.title.split('，')[0]+'</a>').join('');
+const bottomNav=$('bottom-nav');
+const bottomNavItems=[
+  ['overview','总览'],
+  ...days.map(d=>['day'+d.n,'D'+d.n]),
+  ['todo','待办'],
+  ['tips','贴士']
+];
+bottomNav.innerHTML=bottomNavItems.map(([id,label])=>'<a href="#'+id+'" data-target="'+id+'">'+label+'</a>').join('');
+
+/* ===== V7 bottom-nav state machine =====
+ * 只保留一个 active 状态来源：
+ * 1) 用户点击底栏时锁定目标，程序化平滑滚动期间不允许滚动监听抢写 active；
+ * 2) 用户手动滚动时，以视口上方 28% 的固定判定线计算当前 section；
+ * 3) active 更新与底栏横向居中解耦，只有真正切换 section 时才移动底栏。
+ */
+const bottomNavTargetIds=bottomNavItems.map(([id])=>id);
+const bottomNavTargets=bottomNavItems.map(([id])=>[id,$(id)]).filter(([,el])=>Boolean(el));
+const bottomNavReducedMotion=window.matchMedia('(prefers-reduced-motion: reduce)');
+const bottomNavState={
+  activeId:'',
+  lockedTargetId:null,
+  lockStartedAt:0,
+  unlockTimer:0,
+  syncFrame:0
+};
+
+function updateSideNavActive(id){
+  document.querySelectorAll('.side-nav a').forEach(a=>{
+    const on=a.getAttribute('href')==='#'+id;
+    a.classList.toggle('active',on);
+    if(on)a.setAttribute('aria-current','true');else a.removeAttribute('aria-current');
+  });
+}
+
+function centerBottomNavLink(link,{force=false,behavior='auto'}={}){
+  if(!link)return;
+  const navRect=bottomNav.getBoundingClientRect();
+  const linkRect=link.getBoundingClientRect();
+  const safeEdge=18;
+  const fullyVisible=linkRect.left>=navRect.left+safeEdge&&linkRect.right<=navRect.right-safeEdge;
+  if(!force&&fullyVisible)return;
+  const targetLeft=link.offsetLeft-(bottomNav.clientWidth-link.offsetWidth)/2;
+  const maxLeft=Math.max(0,bottomNav.scrollWidth-bottomNav.clientWidth);
+  const left=Math.min(maxLeft,Math.max(0,targetLeft));
+  bottomNav.scrollTo({left,behavior:bottomNavReducedMotion.matches?'auto':behavior});
+}
+
+function setBottomNavActive(id,{center='if-needed',behavior='auto'}={}){
+  if(!bottomNavTargetIds.includes(id))return false;
+  const changed=bottomNavState.activeId!==id;
+  let activeLink=null;
+  if(changed){
+    bottomNavState.activeId=id;
+    bottomNav.querySelectorAll('a[data-target]').forEach(a=>{
+      const on=a.dataset.target===id;
+      a.classList.toggle('active',on);
+      if(on){a.setAttribute('aria-current','true');activeLink=a}else a.removeAttribute('aria-current');
+    });
+    updateSideNavActive(id);
+  }else{
+    activeLink=bottomNav.querySelector('a[data-target="'+id+'"]');
+  }
+  if(activeLink&&center!==false&&(changed||center==='force')){
+    centerBottomNavLink(activeLink,{force:center==='force',behavior});
+  }
+  return changed;
+}
+
+function getBottomNavActiveFromScroll(){
+  // 固定激活线：视口顶部 28%，最大 240px。比“哪个 observer entry 最近”稳定得多。
+  const activationY=window.scrollY+Math.min(window.innerHeight*.28,240);
+  let current=bottomNavTargets[0]?.[0]||'overview';
+  for(const [id,el] of bottomNavTargets){
+    const top=el.getBoundingClientRect().top+window.scrollY;
+    if(top<=activationY+1)current=id;else break;
+  }
+  return current;
+}
+
+function syncBottomNavFromScroll(){
+  bottomNavState.syncFrame=0;
+  if(bottomNavState.lockedTargetId)return;
+  setBottomNavActive(getBottomNavActiveFromScroll(),{center:'if-needed',behavior:'auto'});
+}
+
+function requestBottomNavSync(){
+  if(bottomNavState.syncFrame||bottomNavState.lockedTargetId)return;
+  bottomNavState.syncFrame=requestAnimationFrame(syncBottomNavFromScroll);
+}
+
+function finishBottomNavProgrammaticScroll({sync=true}={}){
+  if(!bottomNavState.lockedTargetId)return;
+  clearTimeout(bottomNavState.unlockTimer);
+  bottomNavState.unlockTimer=0;
+  bottomNavState.lockedTargetId=null;
+  bottomNavState.lockStartedAt=0;
+  if(sync)requestBottomNavSync();
+}
+
+function scheduleBottomNavUnlock(delay=150){
+  if(!bottomNavState.lockedTargetId)return;
+  clearTimeout(bottomNavState.unlockTimer);
+  bottomNavState.unlockTimer=setTimeout(()=>finishBottomNavProgrammaticScroll({sync:true}),delay);
+}
+
+function navigateWithBottomNav(id){
+  const target=$(id);
+  if(!target)return;
+  clearTimeout(bottomNavState.unlockTimer);
+  bottomNavState.lockedTargetId=id;
+  bottomNavState.lockStartedAt=performance.now();
+  // 点击后立即只显示用户选择的目标；纵向滚动经过中间 section 时不再改写 active。
+  setBottomNavActive(id,{center:'force',behavior:'smooth'});
+  try{history.replaceState(null,'','#'+id)}catch(err){}
+  target.scrollIntoView({behavior:bottomNavReducedMotion.matches?'auto':'smooth',block:'start'});
+  // 若目标就在当前位置、浏览器没有产生 scroll 事件，也能及时解除锁定。
+  scheduleBottomNavUnlock(bottomNavReducedMotion.matches?40:220);
+}
+
+bottomNav.addEventListener('click',e=>{
+  const link=e.target.closest('a[data-target]');
+  if(!link)return;
+  e.preventDefault();
+  navigateWithBottomNav(link.dataset.target);
+});
+
+// 用户主动接管滚动时，立即退出程序化滚动锁。
+function cancelBottomNavProgrammaticScroll(){
+  if(!bottomNavState.lockedTargetId)return;
+  // 忽略点击导航后极短时间内可能产生的合成事件。
+  if(performance.now()-bottomNavState.lockStartedAt<80)return;
+  finishBottomNavProgrammaticScroll({sync:false});
+  requestBottomNavSync();
+}
+window.addEventListener('wheel',cancelBottomNavProgrammaticScroll,{passive:true});
+window.addEventListener('touchstart',cancelBottomNavProgrammaticScroll,{passive:true});
+window.addEventListener('pointerdown',e=>{if(!bottomNav.contains(e.target))cancelBottomNavProgrammaticScroll()},{passive:true});
+window.addEventListener('keydown',e=>{
+  if(['ArrowUp','ArrowDown','PageUp','PageDown','Home','End',' '].includes(e.key))cancelBottomNavProgrammaticScroll();
+},{passive:true});
+
+window.addEventListener('scroll',()=>{
+  if(bottomNavState.lockedTargetId){
+    // smooth scroll 每一帧只延后解锁，不更新 active。
+    scheduleBottomNavUnlock(150);
+  }else{
+    requestBottomNavSync();
+  }
+},{passive:true});
+window.addEventListener('resize',requestBottomNavSync,{passive:true});
+if('onscrollend' in window){
+  window.addEventListener('scrollend',()=>{
+    if(bottomNavState.lockedTargetId)finishBottomNavProgrammaticScroll({sync:true});
+    else requestBottomNavSync();
+  },{passive:true});
+}
+
+const initialBottomTarget=(location.hash||'').slice(1);
+if(bottomNavTargetIds.includes(initialBottomTarget)){
+  setBottomNavActive(initialBottomTarget,{center:false});
+}else{
+  setBottomNavActive(getBottomNavActiveFromScroll(),{center:false});
+}
+requestAnimationFrame(requestBottomNavSync);
+events.sort((a,b)=>a.at-b.at);
+let selectedEvent=null;
+function tick(){const now=Date.now(),next=events.find(e=>e.at>now);if(!next){$('next-title').textContent='旅程已结束，愿回忆常在';$('next-time').textContent='2027/01/17 22:10 · UTC+8 · 成都';$('next-map').hidden=true;$('next-day').href='#day9';$('count-note').textContent='九天八晚，平安归来';['d','h','m','s'].forEach(k=>$('cd-'+k).textContent='00');return}if(selectedEvent!==next){selectedEvent=next;$('next-title').textContent=next.title;$('next-time').textContent=next.label+(next.planned?' · 计划':' · 已出票');$('next-map').href=navUrl(next.key);$('next-day').href='#day'+next.day;$('count-note').textContent='距下一事件 · 按事件所在地时区计算'}let seconds=Math.max(0,Math.ceil((next.at-now)/1000));const values=[Math.floor(seconds/86400),Math.floor(seconds%86400/3600),Math.floor(seconds%3600/60),seconds%60];['d','h','m','s'].forEach((k,i)=>$('cd-'+k).textContent=String(values[i]).padStart(2,'0'))}
+let theme='light';try{theme=localStorage.getItem('northbound-theme')||'light'}catch(e){}if(!['auto','light','dark'].includes(theme))theme='auto';
+function applyTheme(){const h=new Date().getHours();let active=theme==='auto'?(h>=6&&h<18?'light':'dark'):theme;document.documentElement.dataset.theme=active;$('theme').textContent='配色 · '+({auto:'自动',light:'白天',dark:'黑夜'}[theme]);document.querySelector('meta[name="theme-color"]').content=active==='dark'?'#101E2E':'#F7FAFC'}
+$('theme').onclick=()=>{theme={auto:'light',light:'dark',dark:'auto'}[theme];try{localStorage.setItem('northbound-theme',theme)}catch(e){}applyTheme()};
+function toast(text){$('toast').textContent=text;$('toast').hidden=false;setTimeout(()=>$('toast').hidden=true,5500)}
+async function makeEmbeddedCopy(){
+ const copy=document.documentElement.cloneNode(true);
+ const toastClone=copy.querySelector('#toast');if(toastClone)toastClone.hidden=true;
+ let missing=[];
+ // Try to embed each original asset (including non-selected mobile source) to retain one-file offline behavior.
+ const urls=[...new Set([...document.querySelectorAll('img[data-image-asset],picture source')].flatMap(el=>[(el.getAttribute('src')||el.getAttribute('srcset')||'').trim()]).filter(Boolean))];
+ const encoded=new Map();
+ for(const url of urls){
+  try{
+   const image=new Image();image.decoding='async';image.src=url;await image.decode();
+   const canvas=document.createElement('canvas');canvas.width=image.naturalWidth;canvas.height=image.naturalHeight;
+   const ctx=canvas.getContext('2d');if(!ctx)throw Error('canvas unavailable');ctx.drawImage(image,0,0);
+   encoded.set(url,canvas.toDataURL(url.toLowerCase().endsWith('.png')?'image/png':'image/webp',.88));
+  }catch(e){missing.push(url)}
+ }
+ copy.querySelectorAll('img[data-image-asset],picture source').forEach(el=>{
+  for(const attr of ['src','srcset']){const url=el.getAttribute(attr);if(url&&encoded.has(url))el.setAttribute(attr,encoded.get(url))}
+ });
+ // An absent image should not show as a broken image in the exported document either.
+ copy.querySelectorAll('img[data-image-asset]').forEach(el=>{if(!encoded.has(el.getAttribute('src')))el.classList.add('asset-missing')});
+ return {html:'<!doctype html>\n'+copy.outerHTML,missing};
+}
+$('save').onclick=async()=>{
+ const btn=$('save');btn.disabled=true;const old=btn.textContent;btn.textContent='准备文件中…';
+ try{const result=await makeEmbeddedCopy();const url=URL.createObjectURL(new Blob([result.html],{type:'text/html;charset=utf-8'}));
+ const a=document.createElement('a');a.href=url;a.download='北海道旅行手册-2027-冰雪版.html';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),30000);
+ toast(result.missing.length?'已请求保存 HTML。部分图片未找到或无法内嵌，请同时保存 assets 文件夹。':'已请求下载：图片也已内嵌，可单文件离线查看。');
+ }catch(e){toast('无法准备下载，请用浏览器另存为或打印为 PDF。')}
+ finally{btn.disabled=false;btn.textContent=old}
+};
+
+/* ===== 封面 01 → 05：原生文档滚动 + 同一个 sticky 摄影舞台 =====
+ * 01: p=0，照片满屏、文字完整。
+ * 02: p≈.18，照片轻移，雾从下方升起，提示淡出。
+ * 03: p≈.5，照片变淡、雪脊和白雾进入；正文从下面真实上升。
+ * 04: p≈.85，照片顶部切换为横幅，正文已经覆盖封面下部。
+ * 05: p=1，释放 sticky，正文自然滚动，绝不复制假页面或拦截 touch。
+ */
+// Ambient scene: two subtle drifting snow layers; decorative only, never intercepts scrolling.
+function buildSnow(){
+ const near=$('snowfall-near'),far=$('snowfall-far');
+ if(!near||!far||window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+ function populate(layer,count,seed){
+  let value=seed;
+  const random=()=>{value=(value*1664525+1013904223)>>>0;return value/4294967296};
+  const fragment=document.createDocumentFragment();
+  for(let i=0;i<count;i++){
+   const flake=document.createElement('i');flake.className='snowflake';flake.setAttribute('aria-hidden','true');
+   const size=(layer===near?2.1:1.1)+random()*(layer===near?4.2:2.3);
+   flake.style.setProperty('--x',(random()*100).toFixed(2)+'%');
+   flake.style.setProperty('--flake-size',size.toFixed(1)+'px');
+   flake.style.setProperty('--flake-opacity',(.17+random()*.52).toFixed(2));
+   flake.style.setProperty('--flake-blur',(layer===near?.9:.3).toFixed(1)+'px');
+   flake.style.setProperty('--duration',((layer===near?12:19)+random()*17).toFixed(1)+'s');
+   flake.style.setProperty('--delay',(-random()*32).toFixed(1)+'s');
+   flake.style.setProperty('--drift',((random()-.4)*90).toFixed(1)+'px');
+   fragment.appendChild(flake);
+  }
+  layer.appendChild(fragment);
+ }
+ populate(near,21,20270109);populate(far,19,20270117);
+}
+buildSnow();
+const openingSection=$('winter-opening');
+const openingStage=$('opening-stage');
+const reducedMotion=window.matchMedia('(prefers-reduced-motion: reduce)');
+let framePending=false;
+const clamp01=n=>Math.max(0,Math.min(1,n));
+const ramp=(x,a,b)=>clamp01((x-a)/(b-a));
+function renderOpening(){
+ framePending=false;
+ if(!openingSection||!openingStage)return;
+ const travel=Math.max(1,openingSection.offsetHeight-openingStage.offsetHeight);
+ const p=clamp01((window.scrollY-openingSection.offsetTop)/travel);
+ document.documentElement.classList.toggle('guide-visible',window.scrollY>openingSection.offsetTop+travel*.72);
+ if(reducedMotion.matches){openingStage.style.removeProperty('--photo-y');openingStage.style.removeProperty('--photo-scale');return}
+ openingStage.style.setProperty('--photo-y',(-p*4.8).toFixed(2)+'svh');
+ openingStage.style.setProperty('--photo-scale',(1.035+p*.075).toFixed(4));
+ openingStage.style.setProperty('--scene-opacity',(1-ramp(p,.58,.98)*.34).toFixed(4));
+ openingStage.style.setProperty('--cover-text-y',(-p*9.2).toFixed(2)+'svh');
+ openingStage.style.setProperty('--cover-text-opacity',(1-ramp(p,.20,.67)).toFixed(4));
+ openingStage.style.setProperty('--chrome-opacity',(1-ramp(p,.12,.57)).toFixed(4));
+ // 02/03: the generated fog image rises early and becomes the actual transition surface.
+ const fog=ramp(p,.045,.66);
+ openingStage.style.setProperty('--mist-opacity',fog.toFixed(4));
+ openingStage.style.setProperty('--mist-y',((1-ramp(p,.055,.69))*31-8).toFixed(2)+'svh');
+ // 04/05: cross-fade a masked mini banner into the real document, with no rectangular edge.
+ const banner=ramp(p,.57,.88);
+ openingStage.style.setProperty('--banner-opacity',banner.toFixed(4));
+ openingStage.style.setProperty('--banner-y',(-4+ramp(p,.57,.93)*4).toFixed(2)+'svh');
+ openingStage.style.setProperty('--banner-scale',(1.018-ramp(p,.57,.93)*.018).toFixed(4));
+}
+function requestOpening(){if(!framePending){framePending=true;requestAnimationFrame(renderOpening)}}
+window.addEventListener('scroll',requestOpening,{passive:true});
+window.addEventListener('resize',requestOpening,{passive:true});
+if(reducedMotion.addEventListener)reducedMotion.addEventListener('change',requestOpening);
+const enter=$('scroll-invite');
+if(enter)enter.addEventListener('click',event=>{
+ event.preventDefault();
+ const target=$('guide-root').offsetTop-12;
+ window.scrollTo({top:target,behavior:reducedMotion.matches?'auto':'smooth'});
+});
+// When assets are not installed yet, hide broken <img> elements and keep the CSS winter gradient fallback.
+document.querySelectorAll('img[data-image-asset]').forEach(image=>{
+ function mark(){image.classList.toggle('asset-missing',!image.naturalWidth)}
+ image.addEventListener('error',mark);
+ image.addEventListener('load',mark);
+ if(image.complete)mark();
+});
+requestOpening();
+
+tick();applyTheme();setInterval(tick,1000);setInterval(applyTheme,60000);document.addEventListener('visibilitychange',()=>{if(!document.hidden){tick();applyTheme()}});
+</script>
+</body>
+</html>
